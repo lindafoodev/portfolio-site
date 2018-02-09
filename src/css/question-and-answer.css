@@ -1,0 +1,5 @@
+.title.right.is-active{
+      transform: rotateZ(90deg) translate3d(50%,-100%,0);
+      top: 50vh;
+      left: auto!important;
+  }
