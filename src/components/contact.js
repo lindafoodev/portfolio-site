@@ -1,13 +1,11 @@
 import React from 'react';
 
-import BottomNav from './bottom-nav';
-
 import '../css/contact.css';
 
 export default function Contact() {
     return (
       <div>
-          <section>
+          <footer>
             <h2>
               Contact
             </h2>
@@ -17,8 +15,31 @@ export default function Contact() {
             <div>
               Hello text on right                   
             </div>
-          </section>
-          <BottomNav />  
+          </footer>
+          <nav>
+            <ul className="bottomNav">
+                <li>
+                    <a className="qanda" href="#">
+                        Q&A
+                    </a>
+                </li>
+                <li>
+                    <a className="portfolio" href="#">
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a className="resume" href="#">
+                        Resume
+                    </a>
+                </li>
+                <li>
+                    <a className="top" href="#">
+                        Return to Top
+                    </a>
+                </li>
+            </ul>
+        </nav> 
       </div>      
     );
 }

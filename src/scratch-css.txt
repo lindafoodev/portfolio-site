@@ -1,0 +1,45 @@
+<Home> - COMPONENT (BLACK)
+      <LandingPage> - COMPONENT (RED)
+            <TopNav> - COMPONENT (BLUE)
+      <QuestionAndAnswer> - COMPONENT (ORANGE)
+      <Portfolio> - COMPONENT (GREEN)
+      <Resume> - COMPONENT (BROWN)
+      <Contact> - COMPONENT (PURPLE)
+           <BottomNav> - COMPONENT (YELLOW)
+</Home>
+
+Elements on same "section" background colorish -adj based on larger component level assigned color
+1.RED
+2.BLUE
+3.ORANGE
+4.GREEN
+5.BROWN
+6.Yellow
+
+
+
+
+
+INDEXCSS/HOME
+            <div className='home-container'>
+                <LandingPage />
+                <QuestionAndAnswer />
+                <Portfolio />
+                <Resume />
+                <Contact />
+            </div>
+
+
+            ----------------------------------
+LANDING PAGE
+        <div id='top'>
+            <div className='businessCard'>
+              <h1 className='businessCard-name'>
+                Linda Foo
+              </h1>
+              <div className='businessCard-title'>
+                Developer
+              </div>
+            </div>
+            <TopNav />  
+        </div>
