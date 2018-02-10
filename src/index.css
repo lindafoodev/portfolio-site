@@ -1,14 +1,14 @@
-*, :after, :before {
+/* *, :after, :before {
   box-sizing: inherit;
-}
+} */
 
 .home-container {
   display: block;
-  border: 3px solid black;
+  border: 3px solid #565656;
+  overflow: hidden;
 }
 
 #top{  
-  border: 3px solid red;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -17,29 +17,84 @@
 }
 
 .businessCard{
-  border: 3px solid blue;
   width: 100%;
   height: 100vh;
   display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  background-color: #EDEDED;
+}
+
+.businessCard-top-container{
+  width: 100%;
+  display: flex;
   align-items: left;
-  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.corner-image{
+  width: 100%;
+  height: 10vw;
+  text-align: right;
 }
 
 .businessCard-name{
-  background-color: orange;
-  text-align: left;
+  width: 100%;
   font-size: 10vw; 
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 500;
+  color: #565656;
 }
 
 .businessCard-title{
-  background-color: green;
+  width: 100%;
   font-size: 5vw;
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
+  color: #AEC5CB;
+}
+
+.businessCard-bottom-container{
+  width: 100%;
+  position: relative;
+  margin-left: 1em;
+  margin-right: 1em;
+  overflow: hidden;
+  margin-bottom: 2em;
+  align-self: flex-end;
+}
+
+.businessCard-bottom-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1px;
+}
+
+.businessCard-bottom-container li {
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-left: 5px solid #ccc;
+  font-size: 3vw;
+  color: #565656;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-weight: 0;
+}
+
+.businessCard-bottom-container li:first-child { 
+  border-left: none; 
+}
+
+.businessCard-bottom-container a {
+  text-decoration: none;
+  color:#565656;
 }
 
 /*
@@ -48,5 +103,4 @@
   height: 59.6vw
   }
 }
-
 */
