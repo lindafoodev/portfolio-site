@@ -26,17 +26,17 @@ export default function LandingPage() {
                     </li>
                     <li className="portfolio">
                         <a className="portfolio" href="#">
-                            Portfolio
+                            PORTFOLIO
                         </a>
                     </li>
                     <li className="resume">
                         <a className="resume" href="#">
-                            Resume
+                            RESUME
                         </a>
                     </li>
                     <li className="contact">
                         <a className="contact" href="#">
-                            Contact
+                            CONTACT
                         </a>
                     </li>
                 </ul>
