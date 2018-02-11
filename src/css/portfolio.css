@@ -1,0 +1,22 @@
+
+
+
+#portfolio{  
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  background-color: #AEC5CB;
+  padding-top: 18px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  padding-left: 1em;
+  margin-right: 1em;
+  justify-content: flex-start;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

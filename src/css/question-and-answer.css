@@ -3,3 +3,105 @@
       top: 50vh;
       left: auto!important;
   }
+  
+#qanda{  
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  background-color: #EDEDED;
+}
+
+div.first-question{
+  padding-top: 18px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  margin-left: 1em;
+  margin-right: 1em;
+  justify-content: flex-start;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  
+}
+
+h2 {
+  width: 100%;
+  font-size: 7vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #565656;
+}
+
+div.first-question > h3 {
+  padding-top: 36px;
+  width: 100%;
+  font-size: 4vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #AEC5CB;
+}
+
+div.second-question{
+  padding-top: 60px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+div.second-question > h3 {
+  padding-top: 36px;
+  width: 50%;
+  font-size: 4vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #AEC5CB;
+}
+
+div.second-question > p {
+  width: 50%;
+}
+
+p {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  font-size: 16px;
+  font-size: 2vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #565656;
+}
+
+div.third-and-fourth-question{
+  padding-top: 60px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  margin-left: 1em;
+  margin-right: 1em;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+div.third-question > h3, div.fourth-question > h3 {
+  padding-top: 36px;
+  width: 100%;
+  font-size: 4vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #AEC5CB;
+}
+
+div.third-question, div.fourth-question{
+  height: 50%
+}
