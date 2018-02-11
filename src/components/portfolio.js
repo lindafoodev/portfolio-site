@@ -11,16 +11,43 @@ export default function Portfolio() {
             </h2>
             <div className="portfolio-container">
               <div className="project-one-container">
-                <h5>Project 1</h5>
-                <p> Text </p>
-                <h6> Skills </h6>
-                <p> Skills Text </p>
+                <h5>Neighborly</h5>
+                <div className="project-links">
+                  <div className="linkBox">
+                    <a href="#">Demo</a>
+                  </div>
+                  <div className="space-container-link"></div>
+                  <div className="linkBox">
+                    <a href="#">Code</a>
+                  </div>
+                </div>
+                <div className="project-one-description">
+                <p className="pp">Online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
+                </div>
+                <h6> Skills</h6>
+                <div className="project-one-skills">
+                <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, MLab, Travis CI, Github, Mocha, Chai </p>
+                </div>
               </div>
+              <div className="space-container"></div>
               <div className="project-two-container">
-                <h5>Project 2</h5>
-                <p> Text 2</p>
-                <h6> Skills 2</h6>
-                <p> Skills Text 2</p>
+                <h5>Zhip</h5>
+                <div className="project-links">
+                  <div className="linkBox">
+                    <a href="#">Demo</a>
+                  </div>
+                  <div className="space-container-link"></div>
+                  <div className="linkBox">
+                    <a href="#">Code</a>
+                  </div>
+                </div>
+                <div className="project-two-description">
+                <p className="pp">Online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
+                </div>
+                <h6> Skills</h6>
+                <div className="project-two-skills">
+                <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, MLab, Travis CI, Github, Mocha, Chai </p>
+                </div>
               </div>                     
             </div>
           </section>

@@ -11,6 +11,7 @@
   display: block;
   margin: 0 auto;
   background-color: #EDEDED;
+  padding-bottom: 30px;
 }
 
 div.first-question{
@@ -70,7 +71,7 @@ div.second-question > p {
   width: 50%;
 }
 
-p {
+.qp {
   padding-top: 18px;
   padding-bottom: 18px;
   width: 100%;
@@ -78,6 +79,7 @@ p {
   font-size: 2vw; 
   font-family: "din-2014", helvetica, sans-serif;
   color: #565656;
+  border: 5px solid red;
 }
 
 div.third-and-fourth-question{

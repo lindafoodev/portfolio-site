@@ -1,6 +1,3 @@
-
-
-
 #portfolio{  
   width: 100%;
   position: relative;
@@ -10,13 +7,106 @@
   background-color: #AEC5CB;
   padding-top: 18px;
   height: 100vh;
+}
+
+.portfolio-container {
+  width: 80%;
+  margin: auto;
+  height: 70vh;
+  padding: 20px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: left;
-  padding-left: 1em;
-  margin-right: 1em;
-  justify-content: flex-start;
-  overflow: auto;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  flex-direction: row;
+}
+
+.project-one-container, .project-two-container{
+  width: 50%;
+  height: 100%;
+  background:orange;
+  padding: 15px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.space-container{
+  height: 100%;
+  background: #AEC5CB;
+  padding: 15px;
+}
+
+h2 {
+  align-self: flex-start;
+  width: 100%;
+  font-size: 7vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #565656;
+}
+
+h5 {
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 4vw; 
+  font-family: "din-2014", helvetica,sans-serif;
+  color: #565656;
+  text-align: center;
+}
+
+h6 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  font-size: 3vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #565656;
+  text-align: center;
+}
+
+.pp {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  font-size: 16px;
+  font-size: 2vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  color: #565656;
+  padding: 5px;
+}
+
+.project-one-description, .project-two-description, .project-one-skills, .project-two-skills {
+  display:block;
+  width:100%;
+  background: red;
+}
+
+
+.project-links{
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+  font-size: 12px;
+  font-size: 2vw; 
+  font-family: "din-2014", helvetica, sans-serif;
+  background: yellow;
+}
+
+.linkBox{
+  padding: 5px;
+  border: 5px solid #AEC5CB;
+  background-color: #EDEDED;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #565656;
+}
+
+.space-container-link{
+  height: 100%;
+  background: #EDEDED;
+  padding: 5px;
 }
