@@ -43,3 +43,19 @@ LANDING PAGE
             </div>
             <TopNav />  
         </div>
+
+
+NEED TO FIX
+max height-width for card - name/title bleed into links with larger screen
+
+add image on card???
+
+
+Q&A - text bleeds on right
+big gap between Q1 and Q2 - how to prevent Q2 from scrolling past question immediately 
+
+Q2 - add image to left
+
+q3 - need to increase gap between section
+
+edit content!

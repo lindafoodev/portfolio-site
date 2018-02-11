@@ -4,7 +4,7 @@ import React from 'react';
 
 import LandingPage from './landing-page';
 import QuestionAndAnswer from './question-and-answer';
-//import Portfolio from './portfolio';
+import Portfolio from './portfolio';
 //import Resume from './resume';
 //import Contact from './contact';
 
@@ -14,13 +14,14 @@ export default class Home extends React.Component {
             <div className='home-container'>
                 <LandingPage />
                 <QuestionAndAnswer />
+                <Portfolio />
             </div>
         );
     }
 }
 
 
-/*<QuestionAndAnswer />
+/*
                 <Portfolio />
                 <Resume />
                 <Contact />

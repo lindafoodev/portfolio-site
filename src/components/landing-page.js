@@ -8,7 +8,7 @@ export default function LandingPage() {
         <div id='top'>
             <div className='businessCard'>
               <div className='businessCard-top-container'>
-                <div className='corner-image'> placeholder</div>
+                <div className='corner-image'> image placeholder</div>
                 <h1 className='businessCard-name'>
                   Linda Foo
                 </h1>
@@ -20,22 +20,22 @@ export default function LandingPage() {
                 <nav>
                   <ul className="topNav">
                     <li className="qanda">
-                        <a className="qanda" href="#">
+                        <a className="qanda" href="#qanda">
                             Q&A
                         </a>
                     </li>
                     <li className="portfolio">
-                        <a className="portfolio" href="#">
+                        <a className="portfolio" href="#portfolio">
                             PORTFOLIO
                         </a>
                     </li>
                     <li className="resume">
-                        <a className="resume" href="#">
+                        <a className="resume" href="#resume">
                             RESUME
                         </a>
                     </li>
                     <li className="contact">
-                        <a className="contact" href="#">
+                        <a className="contact" href="#contact">
                             CONTACT
                         </a>
                     </li>
