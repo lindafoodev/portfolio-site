@@ -4,42 +4,60 @@ import '../css/contact.css';
 
 export default function Contact() {
     return (
-      <div>
+      <div id='contact'>
           <footer>
-            <h2>
-              Contact
-            </h2>
-            <div>
-              Hello text on left                   
-            </div>
-            <div>
-              Hello text on right                   
-            </div>
-          </footer>
-          <nav>
-            <ul className="bottomNav">
-                <li>
-                    <a className="qanda" href="#">
-                        Q&A
-                    </a>
-                </li>
-                <li>
-                    <a className="portfolio" href="#">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a className="resume" href="#">
-                        Resume
-                    </a>
-                </li>
-                <li>
-                    <a className="top" href="#">
-                        Return to Top
-                    </a>
-                </li>
-            </ul>
-        </nav> 
+              <div className='contactCard'>
+                  <div className='contactCard-top-container'>
+                    <h2 className='contactCard-title'>
+                    Contact
+                    </h2>
+                    <div className='contact-container'>
+                        <div className='text-on-left-container'>
+                            <p>New Opportunities?</p>
+                            <p>Have Questions?</p>
+                            <p>Give Feedback?</p>
+                            <p>Hash ideas?</p>  
+                            <p className='drop'>Let's Connect!</p>               
+                        </div>
+                        <div className='space-container'></div>
+                        <div className='text-on-right-container'>
+                            <p>Email</p>
+                            <p className='contactInfo'>lindafoodev@gmail.com</p>
+                            <p>LinkedIn</p>
+                            <a className='contactInfo' href="https://www.linkedin.com/in/linda-foo-4714a926">Click Here</a>
+                            <p>Github</p> 
+                            <a className='contactInfo' href="https://github.com/lindafoodev">Click Here</a>       
+                        </div>
+                    </div>
+                </div>
+          <div className='contactCard-bottom-container'>
+                <nav>
+                  <ul className="topNav">
+                    <li className="qanda">
+                        <a className="qanda" href="#qanda">
+                            Q&A
+                        </a>
+                    </li>
+                    <li className="portfolio">
+                        <a className="portfolio" href="#portfolio">
+                            PORTFOLIO
+                        </a>
+                    </li>
+                    <li className="resume">
+                        <a className="resume" href="#resume">
+                            RESUME
+                        </a>
+                    </li>
+                    <li className="top">
+                        <a className="top" href="#top">
+                            RETURN TO TOP
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+        </footer>
       </div>      
     );
 }
