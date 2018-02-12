@@ -25,11 +25,7 @@
   margin-left: 1em;
   margin-right: 1em;
   flex: 3;
-}
-
-.placeholder{
-  width: 100%;
-  height: 10vw;
+  justify-content: center;
 }
 
 .businessCard-name{
@@ -38,7 +34,6 @@
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
   color: #565656;
-  height: 10vw;
 }
 
 .businessCard-title{
@@ -47,8 +42,6 @@
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
   color: #EDEDED;
-  height: 5vw;
-  
 }
 
 .businessCard-bottom-container{

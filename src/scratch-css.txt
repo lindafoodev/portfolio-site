@@ -46,9 +46,9 @@ LANDING PAGE
 
 
 NEED TO FIX
-max height-width for card - name/title bleed into links with larger screen
+max height-width for card - name/title bleed into links with larger screen (FIXED)
 
-add image on card???
+add image on card??? (Do not agree - will not have image)
 
 
 Q&A - text bleeds on right
