@@ -42,11 +42,11 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div className="project-two-description">
-                <p className="pp">Online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
+                <p className="pp">Zhip is a utility application to send and receive IOUs between individuals reliably and securely over the web. </p>
                 </div>
                 <h6> Skills</h6>
                 <div className="project-two-skills">
-                <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, MLab, Travis CI, Github, Mocha, Chai </p>
+                <p className="pp">Javascript ES6, Nodejs, Express, React, Redux, Bcryptjs, jsonwebtoken, Passport, MySQL, Heroku, MLab, Travis CI, Github, Mocha, Chai</p>
                 </div>
               </div>                     
             </div>

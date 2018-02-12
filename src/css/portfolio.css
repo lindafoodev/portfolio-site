@@ -7,14 +7,13 @@
   display: block;
   margin: 0 auto;
   background-color: #AEC5CB;
-  padding-top: 18px;
-  height: 100vh;
+  padding-top: 24px;
+  padding-bottom: 30px;
 }
 
 .portfolio-container {
   width: 80%;
   margin: auto;
-  height: 70vh;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -30,7 +29,6 @@
 
 .project-one-container, .project-two-container{
   width: 50%;
-  height: 100%;
   padding-right: 12px;
   padding-left: 12px;
   padding-bottom: 50px;
@@ -40,7 +38,6 @@
 }
 
 .space-container{
-  height: 100%;
   background: #AEC5CB;
   padding: 15px;
 }
@@ -84,12 +81,6 @@ h6 {
   padding: 5px;
 }
 
-.project-one-description, .project-two-description, .project-one-skills, .project-two-skills {
-  display:block;
-  width:100%;
-}
-
-
 .project-links{
   display: flex;
   justify-content: center;
@@ -117,7 +108,6 @@ a {
 }
 
 .space-container-link{
-  height: 100%;
   background: #EDEDED;
   padding: 5px;
 }
