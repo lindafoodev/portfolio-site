@@ -20,9 +20,9 @@ export default function QuestionAndAnswer() {
               </div>
               <div className="second-question">
                 <h3 className="second-question">
-                  Why coding?
+                  Why programming?
                 </h3>
-                <p className="qp first-paragraph">I enjoy coding because of the emphasis on creating through logic and structure.</p>
+                <p className="qp first-paragraph">I enjoy programming because of the emphasis on creating through logic and structure.</p>
                 <p className="qp second-paragraph">HELLO</p>
                 <p className="qp third-paragraph">Leverage my professional experience and apply the same skills for success (problem-solve, decipher info, be challenge, opportunity through organization)</p>
                 <p className="qp fourth-paragraph">Looking to continue to grow and develop, ability to be creative, seek out projects that interest me, be in a room full of smarter people, share and collaborate.</p>

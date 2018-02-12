@@ -8,7 +8,7 @@ export default function LandingPage() {
         <div id='top'>
             <div className='businessCard'>
               <div className='businessCard-top-container'>
-                <div className='corner-image'> image placeholder</div>
+                <div className='placeholder'></div>
                 <h1 className='businessCard-name'>
                   Linda Foo
                 </h1>

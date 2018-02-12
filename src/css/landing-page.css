@@ -13,6 +13,7 @@
   margin: 0 auto;
   flex-wrap: wrap;
   background-color: #AEC5CB;
+  flex-direction: column;
 }
 
 .businessCard-top-container{
@@ -23,12 +24,12 @@
   flex-direction: column;
   margin-left: 1em;
   margin-right: 1em;
+  flex: 3;
 }
 
-.corner-image{
+.placeholder{
   width: 100%;
   height: 10vw;
-  text-align: right;
 }
 
 .businessCard-name{
@@ -37,6 +38,7 @@
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
   color: #565656;
+  height: 10vw;
 }
 
 .businessCard-title{
@@ -45,15 +47,17 @@
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
   color: #EDEDED;
+  height: 5vw;
+  
 }
 
 .businessCard-bottom-container{
-  width: 100%;
-  margin-left: 1em;
-  margin-right: 1em;
-  overflow: hidden;
+  width: 97%;
   margin-bottom: 2em;
   align-self: flex-end;
+  flex: -1;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .businessCard-bottom-container ul {
@@ -61,7 +65,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: -1px;
 }
 
 .businessCard-bottom-container li {

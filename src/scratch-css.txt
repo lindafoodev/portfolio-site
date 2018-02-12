@@ -59,3 +59,5 @@ Q2 - add image to left
 q3 - need to increase gap between section
 
 edit content!
+
+skills bleed out when screen enlarged

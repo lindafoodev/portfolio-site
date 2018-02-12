@@ -16,16 +16,25 @@
   padding: 20px;
   display: flex;
   flex-direction: row;
+  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+.portfolio-container::-webkit-scrollbar{ 
+  display: none; 
 }
 
 .project-one-container, .project-two-container{
   width: 50%;
   height: 100%;
-  background:orange;
-  padding: 15px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 50px;
   border-radius: 3px;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  background-color: #EDEDED;
 }
 
 .space-container{
@@ -44,8 +53,8 @@ h2 {
 
 h5 {
   width: 100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 6px;
   font-size: 4vw; 
   font-family: "din-2014", helvetica,sans-serif;
   color: #565656;
@@ -76,28 +85,28 @@ h6 {
 .project-one-description, .project-two-description, .project-one-skills, .project-two-skills {
   display:block;
   width:100%;
-  background: red;
 }
 
 
 .project-links{
   display: flex;
-  padding: 5px;
   justify-content: center;
-  list-style-type: none;
   text-align: center;
   font-size: 12px;
   font-size: 2vw; 
   font-family: "din-2014", helvetica, sans-serif;
-  background: yellow;
 }
 
 .linkBox{
   padding: 5px;
   border: 5px solid #AEC5CB;
   background-color: #EDEDED;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   box-sizing: border-box;
+}
+
+a:hover {
+  background-color: rgba(107, 18, 18, 0.158)
 }
 
 a {
