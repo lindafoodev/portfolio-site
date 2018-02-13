@@ -22,11 +22,11 @@ export default function Contact() {
                         <div className='space-container'></div>
                         <div className='text-on-right-container'>
                             <p>Email</p>
-                            <p className='contactInfo'>lindafoodev@gmail.com</p>
+                            <p><a className='contactInfo' target="_top" href="mailto:lindafoodev@gmail.com">lindafoodev@gmail.com</a></p>
                             <p>LinkedIn</p>
-                            <a className='contactInfo' href="https://www.linkedin.com/in/linda-foo-4714a926">Click Here</a>
+                            <a className='contactInfo' href="https://www.linkedin.com/in/linda-foo-4714a926">linkedin.com/in/linda-foo</a>
                             <p>Github</p> 
-                            <a className='contactInfo' href="https://github.com/lindafoodev">Click Here</a>       
+                            <a className='contactInfo' href="https://github.com/lindafoodev">lindafoodev</a>       
                         </div>
                     </div>
                 </div>

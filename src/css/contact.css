@@ -91,7 +91,6 @@
   color: #565656;
   padding: 10px;
   text-align: center;
-  background-color: #EDEDED;
 }
 
 .text-on-right-container p {
@@ -102,12 +101,7 @@
   padding: 10px;
 }
 
-
-.text-on-left-container p.drop {
-  padding-top: 50px;
-}
-
-p.contactInfo, .contactInfo {
+.contactInfo {
   font-size: 18px;
   font-size: 3vw; 
   font-family: "din-2014", helvetica, sans-serif;
