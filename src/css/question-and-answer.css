@@ -27,12 +27,13 @@ div.first-question{
   overflow: auto;
   overflow-y: scroll;
   overflow-x: hidden;
+  align-content: start;
   
 }
 
 h2 {
   width: 100%;
-  font-size: 7vw; 
+  font-size: 7; 
   font-family: "din-2014", helvetica, sans-serif;
   color: #565656;
 }
@@ -73,6 +74,7 @@ div.third-and-fourth-question{
   overflow: auto;
   overflow-y: scroll;
   overflow-x: hidden;
+  align-content: start;
 }
 
 div.third-question > h3, div.fourth-question > h3 {
@@ -97,6 +99,7 @@ div.third-question, div.fourth-question{
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none;
+  align-content: start;
 }
 
 .second-question-container::-webkit-scrollbar{ 

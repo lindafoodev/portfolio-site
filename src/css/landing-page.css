@@ -30,7 +30,7 @@
 
 .businessCard-name{
   width: 100%;
-  font-size: 10vw; 
+  font-size: 10vw; /*em for responsive */
   font-family: "din-2014", helvetica, sans-serif;
   font-weight: 0;
   color: #565656;
