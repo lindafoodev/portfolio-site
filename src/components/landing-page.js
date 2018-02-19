@@ -45,5 +45,3 @@ export default function LandingPage() {
       </div>
     );
 }
-
-//Need to add image
