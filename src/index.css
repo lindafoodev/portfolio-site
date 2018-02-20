@@ -1,0 +1,97 @@
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap 
+ 565656
+ EDEDED
+ AEC5CB
+ */
+.row {
+  height: 100vh
+}
+
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 100%
+}
+
+.card .title {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  color: #565656;
+}
+
+.card .desc {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+  color: #EDEDED;
+  text-overflow: ellipsis;
+}
+
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #AEC5CB;
+}
+
+.card.hovercard .cardheader {
+  background: url('./components/linh-nguyen-145766-unsplash.jpg');
+  background-size: cover;
+  height: 40%;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 125px;
+  height: 125px;
+  max-width: 125px;
+  max-height: 125px;
+  border-radius: 50%;
+  border: 5px solid #EDEDED;
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
