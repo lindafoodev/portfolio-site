@@ -4,8 +4,16 @@
  EDEDED
  AEC5CB
  */
+* {
+  box-sizing: border-box
+}
+
+.container{
+  width: 100vw;
+
+}
 .row {
-  height: 100vh
+  height: 100vh;
 }
 
 .card {
@@ -96,12 +104,13 @@
 
 
 .card.contentcard {
-  position: relative;
-  padding-top: 0;
+  position: block;
+  padding-top: 100px;
   overflow: hidden;
   text-align: center;
   background-color: #EDEDED;
 }
+
 
 .card.contentcard .title {
   text-align: left;
@@ -123,7 +132,16 @@
 }
 
 
+header {
+  margin-bottom: -100px
+}
 
+/*------------------------------------------------------------------------------------------ */
+.content-container{
+  position: relative;
+  z-index: -1;
+  margin-top: -10px
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
