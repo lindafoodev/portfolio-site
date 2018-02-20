@@ -35,8 +35,8 @@ export default class Home extends React.Component {
                 </div>
                 <div className='row'>
                     <div className='col-lg-3 col-sm-6'>
-                        <div className="card hovercard" >
-                            <div className="cardheader">
+                        <div className="card contentcard" >
+                            <div className="smooth-spacer">
                                 
                             </div>
                             <div className="info">
@@ -45,8 +45,10 @@ export default class Home extends React.Component {
                                 </div>
                                 <div className="desc">Why are you here?</div>
                             </div>
-                            <div>
-                                <p>Descriptiong</p>
+                            <div className="detail">
+                                <div className="content">
+                                    <p>Descriptiong</p>
+                                </div>
                             </div>
                         </div>
                     </div>

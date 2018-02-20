@@ -37,8 +37,19 @@
   overflow: hidden;
   font-family: "din-2014", helvetica, sans-serif;
   font-size: 2em;
+  line-height: 1.25em;
+  color: #EDEDED; 
+  text-overflow: ellipsis;
+}
+
+.card .content {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-size: 1.5em;
   line-height: 1em;
-  color: #EDEDED;
+  color: #EDEDED; 
   text-overflow: ellipsis;
 }
 
@@ -74,6 +85,44 @@
 .card.hovercard .info {
   padding: 4px 8px 10px;
 }
+
+.card.contentcard .smooth-spacer {
+  height: 5%;
+}
+
+.card.contentcard .info {
+  padding: 4px 8px 10px;
+}
+
+
+.card.contentcard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+.card.contentcard .title {
+  text-align: left;
+  
+}
+
+.card.contentcard .desc {
+  text-align: left;
+  color: #AEC5CB;
+}
+
+.card.contentcard .detail {
+  padding: 4px 8px 10px;
+}
+
+.card.contentcard .content {
+  text-align: left;
+  color: #565656;
+}
+
+
 
 
 /* Small devices (landscape phones, 576px and up) */
