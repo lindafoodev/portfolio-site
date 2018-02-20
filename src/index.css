@@ -143,6 +143,22 @@ header {
   margin-top: -10px
 }
 
+.topNav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    padding: 5px;
+    color: #565656;
+    font-family: "din-2014", helvetica, sans-serif;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 
