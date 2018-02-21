@@ -179,7 +179,7 @@ export default class Home extends React.Component {
                     <section id="portfolio">           
                             <div className='row'>
                                 <div className='col-lg-3 col-sm-6'>
-                                    <div className="card contentcard startcontent altcolor" >
+                                    <div className="card contentcard startcontent endcontent altcolor" >
                                         <div className="smooth-spacer">
                                             
                                         </div>
@@ -234,7 +234,223 @@ export default class Home extends React.Component {
                                 </div>
                             </div>
                         </section>  
-                    </div>                              
+                    </div>
+                    <div className='content-container'>   
+                    <section id="resume">           
+                            <div className='row'>
+                                <div className='col-lg-3 col-sm-6'>
+                                    <div className="card contentcard startcontent endcontent" >
+                                        <div className="smooth-spacer">
+                                            
+                                        </div>
+                                        <div className="info">
+                                            <div className="title">
+                                                Resume
+                                            </div>
+                                            <nav className='downloadNav'>
+                                            <ul className='downloadNav-list'>
+                                                <li className="download">
+                                                    <div className='wrapper'>
+                                                    <a href="./abcf32x.pdf" download="linda-foo-resume.pdf" alt="Download PDF" target="_blank">
+                                                        <span> 
+                                                        <img className='icon-qanda icon-bubble' src={require('./images/if_icon-57-document-download_314897.ico')} alt={"Download PDF Icon"}/>
+                                                        Download PDF
+                                                        </span>
+                                                    </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>                                            
+                                        </div>
+                                        <div className="detail">
+                                            <div className="desc">Experience</div>
+                                            <div className="content">
+                                                <table>
+                                                    <tr className='table-header'>
+                                                        <th></th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr className='table-detail'>
+                                                        <td className='organization'>Thinkful</td>
+                                                        <td className='year'>2017-2018</td>
+                                                    </tr>
+                                                    <tr className='table-detail'> 
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list'>
+                                                                <li className='resume-item'>Build project</li>
+                                                                <li className='resume-item'>Hello World</li>
+                                                                <li className='resume-item'>Description</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td className='organization'>JPMorgan Chase & Co.</td>
+                                                        <td className='year'>2015-2017</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list'>
+                                                                <li className='resume-item'>Build projectHLDJF</li>
+                                                                <li className='resume-item'>Hello World</li>
+                                                                <li className='resume-item'>Description</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        <div className="desc">Education</div>
+                                            <div className="content">
+                                                <table>
+                                                    <tr className='table-header'>
+                                                        <th></th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr className='table-detail'>
+                                                        <td className='organization'>Thinkful</td>
+                                                        <td className='year'>2017-2018</td>
+                                                    </tr>
+                                                    <tr className='table-detail'> 
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list education'>
+                                                                <li className='resume-item'>Full Time Engineering Immersion Program</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td className='organization'>The University of Texas at Austin</td>
+                                                        <td className='year'>2012</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list education'>
+                                                                <li className='resume-item'>Master in Professional Accounting</li>
+                                                                <li className='resume-item'>Bachelor of Business Administration</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                      
+                                        <div className="desc">Skill</div>
+                                            <div className="content">
+                                                <table>
+                                                    <tr className='table-header'>
+                                                        <th></th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr className='table-detail'>
+                                                        <td className='organization'>Thinkful</td>
+                                                        <td className='year'>2017-2018</td>
+                                                    </tr>
+                                                    <tr className='table-detail'> 
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list education'>
+                                                                <li className='resume-item'>Full Time Engineering Immersion Program</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td className='organization'>The University of Texas at Austin</td>
+                                                        <td className='year'>2012</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list education'>
+                                                                <li className='resume-item'>Master in Professional Accounting</li>
+                                                                <li className='resume-item'>Bachelor of Business Administration</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        <div className="desc">Honors & Awards</div>
+                                            <div className="content">
+                                                <table>
+                                                    <tr className='table-header'>
+                                                        <th></th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr className='table-detail'>
+                                                        <td className='organization'>Lesbians Who Tech</td>
+                                                        <td className='year'>2017</td>
+                                                    </tr>
+                                                    <tr className='table-detail'> 
+                                                        <td colSpan={2}>
+                                                            <ul className='resume-list education'>
+                                                                <li className='resume-item'>Edie Windsor Coding Scholarship</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div className="desc">Activities & Interests</div>
+                                            <div className="content">
+                                                <table>
+                                                    <tr className='table-header'>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr className='table-detail'> 
+                                                        <td className='interests' colSpan={2}>Frugal Innovation, Hiking (11 National Parks), Extensive International Travel (5/7 continents)</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>  
+                    </div>
+                    <div className='content-container'>   
+                    <section id="contact">           
+                            <div className='row'>
+                                <div className='col-lg-3 col-sm-6'>
+                                    <div className="card contentcard startcontent endapp altcolor" >
+                                        <div className="smooth-spacer">
+                                            
+                                        </div>
+                                        <div className="info">
+                                            <div className="title">
+                                                Contact
+                                            </div>
+                                        </div>
+                                        <div className="detail">
+                                            <div className="content">
+                                            <div className='contact-container'>
+                                                <div className='text-on-left-container'>
+                                                    <p className='drop'>Let's Connect!</p>               
+                                                </div>
+                                                <div className='text-on-right-container contact-details'>
+                                                    <p className='contact-title'>Email</p>
+                                                    <p><a className='contactInfo' target="_top" href="mailto:lindafoodev@gmail.com">lindafoodev@gmail.com</a></p>
+                                                    <p className='contact-title'>LinkedIn</p>
+                                                    <p><a className='contactInfo' href="https://www.linkedin.com/in/linda-foo">linkedin.com/in/linda-foo</a></p>
+                                                    <p className='contact-title'>Github</p> 
+                                                    <p><a className='contactInfo' href="https://github.com/lindafoodev">lindafoodev</a></p>       
+                                                </div>
+                                        </div>
+                                            </div>
+                                        </div>
+                                        <nav className='bottomNav'>
+                                            <ul className='bottomNav-list'>
+                                                <li className="return-to-top">
+                                                    <div className='wrapper bottom-nav'>
+                                                    <a className="return-to-top" href="#top">
+                                                        <span> 
+                                                        <img className='icon-qanda icon-bubble' src={require('./images/if_ExpandLess_1031519.ico')} alt={"Return to Top Icon"}/> <br/>
+                                                        Return to Top
+                                                        </span>
+                                                    </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>  
+                    </div>                                  
                 </div>
         );
     }

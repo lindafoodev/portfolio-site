@@ -241,7 +241,7 @@ h6 {
   padding-top: 18px;
   padding-bottom: 18px;
   width: 100%;
-  font-size: 1em; 
+  font-size: 1.25em; 
   font-family: "din-2014", helvetica, sans-serif;
   color: #565656;
   padding: 5px;
@@ -251,7 +251,7 @@ h6 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 1em; 
+  font-size: 1.5em; 
   font-family: "din-2014", helvetica, sans-serif;
 }
 
@@ -276,6 +276,72 @@ dev.linkBox > a {
 .space-container-link{
   background: #EDEDED;
   padding: 5px;
+}
+
+table {
+  width: 100%
+}
+
+ul.resume-list {
+  list-style-type: circle;
+  padding: 10px;
+  padding-left: 40px;
+  width: 100%
+}
+
+.year {
+  text-align: right
+}
+
+ul.resume-list.education {
+  list-style-type: none;
+}
+
+td.organization{
+  width: 70%;
+}
+
+td.year{
+  width: 30%
+}
+
+.interests{
+  text-align: left
+}
+
+.download-btn-container{
+  width: 100%;
+  text-align: center;
+  padding-top: 20px
+}
+
+.download-btn{
+  height: 65px;
+  width: 150px;
+  color: #565656;
+  background-color: #AEC5CB;
+  font-size: 1em; 
+  font-family: "din-2014", helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.card.endapp{
+  padding-bottom: 100px;
+}
+
+.contact-container p{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px
+}
+
+.contact-title{
+  font-weight: bold
+}
+
+.bottom-nav{
+  margin-top: -20px
 }
 
 
