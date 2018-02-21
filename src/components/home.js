@@ -12,11 +12,11 @@ import BoundingRect from './bounding-rect';
 // import Resume from './resume';
 // import Contact from './contact';
 
-const containerHeight = '110px';
+const containerHeight = '100px';
 
 const styles = {
-  sticky: { 'max-width': '93vw', transform: 'translateX(-3%)', position: 'fixed', top: 0, 'margin-right': '1.5px', right: '0', 'background-color': 'red', border: '3px solid black'},
-  container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative' , border: '3px solid black'},
+  sticky: { 'max-width': '93vw', transform: 'translateX(-3%)', position: 'fixed', top: 0, 'margin-right': '1.5px', right: '0', 'background-color': '#AEC5CB', border: '3px solid #EDEDED'},
+  container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
   boundingRect: { width: '100%', height: containerHeight },
 };
 
@@ -33,7 +33,7 @@ export default class Home extends React.Component {
                                             
                                         </div>
                                         <div className="avatar">
-                                            <img src={require('./avatar-linda.jpg')} alt={"linda foo profile"}/>
+                                            <img src={require('./images/avatar-linda.jpg')} alt={"linda foo profile"}/>
                                         </div>
                                         <div className="info">
                                             <div className="title">
@@ -52,7 +52,10 @@ export default class Home extends React.Component {
                                     <ul className='topNav-list'>
                                         <li className="qanda">
                                             <a className="qanda" href="#qanda">
+                                                <div className='qanda-icon-container'>
+                                                    <i className="icon-qanda"></i>
                                                 Q&A
+                                                </div>
                                             </a>
                                         </li>
                                         <li className="portfolio">

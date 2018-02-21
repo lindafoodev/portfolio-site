@@ -70,7 +70,7 @@
 }
 
 .card.hovercard .cardheader {
-  background: url('./components/linh-nguyen-145766-unsplash.jpg');
+  background: url('./components/images/linh-nguyen-145766-unsplash.jpg');
   background-size: cover;
   height: 40%;
 }
@@ -156,6 +156,20 @@ a, a:hover, a:active, a:visited, a:focus {
     padding: 5px;
     color: #565656;
     font-family: "din-2014", helvetica, sans-serif;
+}
+
+.qanda-icon-container{
+  background-image: url('./components/images/290120-user.ico');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2px;
+}
+
+li [class^="icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+  text-decoration: inherit;
 }
 
 
