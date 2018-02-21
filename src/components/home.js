@@ -51,27 +51,44 @@ export default class Home extends React.Component {
                                 <nav className='topNav'>
                                     <ul className='topNav-list'>
                                         <li className="qanda">
+                                            <div className='wrapper'>
                                             <a className="qanda" href="#qanda">
-                                                <div className='qanda-icon-container'>
-                                                    <i className="icon-qanda"></i>
+                                                <span> 
+                                                <img className='icon-qanda' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> <br/>
                                                 Q&A
-                                                </div>
+                                                </span>
                                             </a>
+                                            </div>
                                         </li>
                                         <li className="portfolio">
+                                        <div className='wrapper'>
                                             <a className="portfolio" href="#portfolio">
+                                                <span> 
+                                                <img className='icon-portfolio' src={require('./images/290140 - folder.ico')} alt={"Portfolio Icon"}/> <br/>
                                                 PORTFOLIO
+                                                </span>
                                             </a>
+                                            </div>
                                         </li>
                                         <li className="resume">
+                                        <div className='wrapper'>
                                             <a className="resume" href="#resume">
+                                                <span> 
+                                                <img className='icon-resume' src={require('./images/290138 - file.ico')} alt={"Resume Icon"}/> <br/>
                                                 RESUME
+                                                </span>
                                             </a>
+                                            </div>
                                         </li>
                                         <li className="contact">
-                                            <a className="contact" href="#contact">
+                                        <div className='wrapper'>
+                                        <a className="contact" href="#contact">
+                                                <span> 
+                                                <img className='icon-contact' src={require('./images/if_phone1_172517.ico')} alt={"Contact Icon"}/> <br/>
                                                 CONTACT
+                                                </span>
                                             </a>
+                                            </div>
                                         </li>
                                     </ul>
                                 </nav>
