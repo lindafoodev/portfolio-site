@@ -207,7 +207,28 @@ export default class Home extends React.Component {
                                                 <div className="project-one-skills">
                                                     <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, MLab, Travis CI, Github, Mocha, Chai </p>
                                                 </div>
-                                        </div>                                           
+                                            </div>
+                                            </div>
+                                            <div className="portfolio-container">                                           
+                                            <div className="project-two-container">
+                                                <h5>Zhip</h5>
+                                                    <div className="project-links">
+                                                         <div className="linkBox">
+                                                         <a href="#portfolio">Demo</a>
+                                                        </div>
+                                                        <div className="space-container-link"></div>
+                                                        <div className="linkBox">
+                                                            <a href="#qanda">Code</a>
+                                                        </div>
+                                                    </div>
+                                                <div className="project-two-description">
+                                                <p className="pp">Zhip is a utility application to send and receive IOUs between individuals reliably and securely over the web. </p>
+                                                </div>
+                                                <h6> Skills</h6>
+                                                <div className="project-two-skills">
+                                                    <p className="pp">Javascript ES6, Nodejs, Express, React, Redux, Bcryptjs, jsonwebtoken, Passport, MySQL, Heroku, MLab, Travis CI, Github, Mocha, Chai</p>
+                                                </div>
+                                            </div>                                           
                                         </div>
                                     </div>
                                 </div>
