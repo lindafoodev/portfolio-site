@@ -17,7 +17,7 @@ import BoundingRect from './bounding-rect';
 const containerHeight = '100px';
 
 const styles = {
-  sticky: {  'max-width': '92.5vw', transform: 'translateX(-3.5%)', position: 'fixed', top: 0, 'margin-right': '1.5px', right: '0', 'background-color': '#AEC5CB', border: '1px solid #EDEDED'},
+  sticky: {  'max-width': '94.75vw', transform: 'translateX(-2.5%)', position: 'fixed', top: 0, 'margin-right': '1.5px', right: '0', 'background-color': '#AEC5CB', border: '1px solid #EDEDED'},
   container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
   boundingRect: { width: '100%', height: containerHeight },
 };
