@@ -17,7 +17,7 @@ import BoundingRect from './bounding-rect';
 const containerHeight = '100px';
 
 const styles = {
-  sticky: {  'max-width': '94.75vw', transform: 'translateX(-2.5%)', position: 'fixed', top: 0, 'margin-right': '1.5px', right: '0', 'background-color': '#AEC5CB', border: '1px solid #EDEDED'},
+  sticky: {  'maxWidth': '94.75vw', transform: 'translateX(-2.5%)', position: 'fixed', top: 0, 'marginRight': '1.5px', right: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
   container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
   boundingRect: { width: '100%', height: containerHeight },
 };
@@ -266,134 +266,141 @@ export default class Home extends React.Component {
                                             <div className="desc">Experience</div>
                                             <div className="content">
                                                 <table>
-                                                    <tr className='table-header'>
-                                                        <th></th>
-                                                        <th></th>
-                                                    </tr>
-                                                    <tr className='table-detail'>
-                                                        <td className='organization'>Thinkful</td>
-                                                        <td className='year'>2017-2018</td>
-                                                    </tr>
-                                                    <tr className='table-detail'> 
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list'>
-                                                                <li className='resume-item'>Build project</li>
-                                                                <li className='resume-item'>Hello World</li>
-                                                                <li className='resume-item'>Description</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                    <br/>
-                                                    <tr>
-                                                        <td className='organization'>JPMorgan Chase & Co.</td>
-                                                        <td className='year'>2015-2017</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list'>
-                                                                <li className='resume-item'>Build projectHLDJF</li>
-                                                                <li className='resume-item'>Hello World</li>
-                                                                <li className='resume-item'>Description</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
+                                                    <tbody>
+                                                        <tr className='table-header'>
+                                                            <th></th>
+                                                            <th></th>
+                                                        </tr>
+                                                        <tr className='table-detail'>
+                                                            <td className='organization'>Thinkful</td>
+                                                            <td className='year'>2017-2018</td>
+                                                        </tr>
+                                                        <tr className='table-detail'> 
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list'>
+                                                                    <li className='resume-item'>Build project</li>
+                                                                    <li className='resume-item'>Hello World</li>
+                                                                    <li className='resume-item'>Description</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className='organization'>JPMorgan Chase & Co.</td>
+                                                            <td className='year'>2015-2017</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list'>
+                                                                    <li className='resume-item'>Build projectHLDJF</li>
+                                                                    <li className='resume-item'>Hello World</li>
+                                                                    <li className='resume-item'>Description</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                         <div className="desc">Education</div>
                                             <div className="content">
                                                 <table>
-                                                    <tr className='table-header'>
-                                                        <th></th>
-                                                        <th></th>
-                                                    </tr>
-                                                    <tr className='table-detail'>
-                                                        <td className='organization'>Thinkful</td>
-                                                        <td className='year'>2017-2018</td>
-                                                    </tr>
-                                                    <tr className='table-detail'> 
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list education'>
-                                                                <li className='resume-item'>Full Time Engineering Immersion Program</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                    <br/>
-                                                    <tr>
-                                                        <td className='organization'>The University of Texas at Austin</td>
-                                                        <td className='year'>2012</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list education'>
-                                                                <li className='resume-item'>Master in Professional Accounting</li>
-                                                                <li className='resume-item'>Bachelor of Business Administration</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
+                                                    <tbody>
+                                                        <tr className='table-header'>
+                                                            <th></th>
+                                                            <th></th>
+                                                        </tr>
+                                                        <tr className='table-detail'>
+                                                            <td className='organization'>Thinkful</td>
+                                                            <td className='year'>2017-2018</td>
+                                                        </tr>
+                                                        <tr className='table-detail'> 
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list education'>
+                                                                    <li className='resume-item'>Full Time Engineering Immersion Program</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className='organization'>The University of Texas at Austin</td>
+                                                            <td className='year'>2012</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list education'>
+                                                                    <li className='resume-item'>Master in Professional Accounting</li>
+                                                                    <li className='resume-item'>Bachelor of Business Administration</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>                                      
                                         <div className="desc">Skill</div>
                                             <div className="content">
                                                 <table>
-                                                    <tr className='table-header'>
-                                                        <th></th>
-                                                        <th></th>
-                                                    </tr>
-                                                    <tr className='table-detail'>
-                                                        <td className='organization'>Thinkful</td>
-                                                        <td className='year'>2017-2018</td>
-                                                    </tr>
-                                                    <tr className='table-detail'> 
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list education'>
-                                                                <li className='resume-item'>Full Time Engineering Immersion Program</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
-                                                    <br/>
-                                                    <tr>
-                                                        <td className='organization'>The University of Texas at Austin</td>
-                                                        <td className='year'>2012</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list education'>
-                                                                <li className='resume-item'>Master in Professional Accounting</li>
-                                                                <li className='resume-item'>Bachelor of Business Administration</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
+                                                    <tbody>
+                                                        <tr className='table-header'>
+                                                            <th></th>
+                                                            <th></th>
+                                                        </tr>
+                                                        <tr className='table-detail'>
+                                                            <td className='organization'>Thinkful</td>
+                                                            <td className='year'>2017-2018</td>
+                                                        </tr>
+                                                        <tr className='table-detail'> 
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list education'>
+                                                                    <li className='resume-item'>Full Time Engineering Immersion Program</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td className='organization'>The University of Texas at Austin</td>
+                                                            <td className='year'>2012</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list education'>
+                                                                    <li className='resume-item'>Master in Professional Accounting</li>
+                                                                    <li className='resume-item'>Bachelor of Business Administration</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                         <div className="desc">Honors & Awards</div>
                                             <div className="content">
                                                 <table>
-                                                    <tr className='table-header'>
-                                                        <th></th>
-                                                        <th></th>
-                                                    </tr>
-                                                    <tr className='table-detail'>
-                                                        <td className='organization'>Lesbians Who Tech</td>
-                                                        <td className='year'>2017</td>
-                                                    </tr>
-                                                    <tr className='table-detail'> 
-                                                        <td colSpan={2}>
-                                                            <ul className='resume-list education'>
-                                                                <li className='resume-item'>Edie Windsor Coding Scholarship</li>
-                                                            </ul>
-                                                        </td>
-                                                    </tr>
+                                                    <tbody>
+                                                        <tr className='table-header'>
+                                                            <th></th>
+                                                            <th></th>
+                                                        </tr>
+                                                        <tr className='table-detail'>
+                                                            <td className='organization'>Lesbians Who Tech</td>
+                                                            <td className='year'>2017</td>
+                                                        </tr>
+                                                        <tr className='table-detail'> 
+                                                            <td colSpan={2}>
+                                                                <ul className='resume-list education'>
+                                                                    <li className='resume-item'>Edie Windsor Coding Scholarship</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                             <div className="desc">Activities & Interests</div>
                                             <div className="content">
                                                 <table>
-                                                    <tr className='table-header'>
-                                                        <th></th>
-                                                    </tr>
-                                                    <tr className='table-detail'> 
-                                                        <td className='interests' colSpan={2}>Frugal Innovation, Hiking (11 National Parks), Extensive International Travel (5/7 continents)</td>
-                                                    </tr>
+                                                    <tbody>
+                                                        <tr className='table-header'>
+                                                            <th></th>
+                                                        </tr>
+                                                        <tr className='table-detail'> 
+                                                            <td className='interests' colSpan={2}>Frugal Innovation, Hiking (11 National Parks), Extensive International Travel (5/7 continents)</td>
+                                                        </tr>
+                                                    </tbody>
                                                 </table>
                                             </div>
                                         </div>
