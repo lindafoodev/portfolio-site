@@ -178,7 +178,7 @@ export default class Home extends React.Component {
                     <section id="portfolio">           
                             <div className='row'>
                                 <div className='col-lg-3 col-sm-6'>
-                                    <div className="card contentcard startcontent endcontent altcolor" >
+                                    <div className="card contentcard portfoliocontent endcontent altcolor" >
                                         <div className="smooth-spacer">
                                             
                                         </div>
@@ -189,27 +189,6 @@ export default class Home extends React.Component {
                                         </div>
                                         <div className="portfolio-container">
                                             <div className="project-one-container">
-                                                <h5>Neighborly</h5>
-                                                    <div className="project-links">
-                                                         <div className="linkBox">
-                                                         <a href="#portfolio">Demo</a>
-                                                        </div>
-                                                        <div className="space-container-link"></div>
-                                                        <div className="linkBox">
-                                                            <a href="#qanda">Code</a>
-                                                        </div>
-                                                    </div>
-                                                <div className="project-one-description">
-                                                    <p className="pp">Online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
-                                                </div>
-                                                <h6> Skills</h6>
-                                                <div className="project-one-skills">
-                                                    <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai </p>
-                                                </div>
-                                            </div>
-                                            </div>
-                                            <div className="portfolio-container">                                           
-                                            <div className="project-two-container">
                                                 <h5>Zhip</h5>
                                                     <div className="project-links">
                                                          <div className="linkBox">
@@ -220,12 +199,33 @@ export default class Home extends React.Component {
                                                             <a href="#qanda">Code</a>
                                                         </div>
                                                     </div>
+                                                <div className="project-one-description">
+                                                    <p className="pp">Full-stack MERN utility web application to send and receive IOUs between individuals reliably and securely using a generated URL link.</p>
+                                                </div>
+                                                <h6> Skills</h6>
+                                                <div className="project-one-skills">
+                                                    <p className="pp">Javascript ES6, Nodejs, Express, React, Redux, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div className="portfolio-container">                                           
+                                            <div className="project-two-container">
+                                                <h5>Neighborly</h5>
+                                                    <div className="project-links">
+                                                         <div className="linkBox">
+                                                         <a href="#portfolio">Demo</a>
+                                                        </div>
+                                                        <div className="space-container-link"></div>
+                                                        <div className="linkBox">
+                                                            <a href="#qanda">Code</a>
+                                                        </div>
+                                                    </div>
                                                 <div className="project-two-description">
-                                                <p className="pp">Full-stack MERN utility web application to send and receive IOUs between individuals reliably and securely using a generated URL link.</p>
+                                                <p className="pp">Online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
                                                 </div>
                                                 <h6> Skills</h6>
                                                 <div className="project-two-skills">
-                                                    <p className="pp">Javascript ES6, Nodejs, Express, React, Redux, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
+                                                    <p className="pp">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
                                                 </div>
                                             </div>                                           
                                         </div>
@@ -238,171 +238,135 @@ export default class Home extends React.Component {
                     <section id="resume">           
                             <div className='row'>
                                 <div className='col-lg-3 col-sm-6'>
-                                    <div className="card contentcard startcontent endcontent" >
-                                        <div className="smooth-spacer">
-                                            
+                                    <div className="card contentcard resumecontent endcontent" >
+                                        <div className="smooth-spacer"> 
                                         </div>
                                         <div className="info">
                                             <div className="title">
                                                 Resume
                                             </div>
-                                            <nav className='downloadNav'>
-                                            <ul className='downloadNav-list'>
-                                                <li className="download">
-                                                    <div className='wrapper'>
-                                                    <a href="./abcf32x.pdf" download="linda-foo-resume.pdf" alt="Download PDF" target="_blank">
-                                                        <span> 
-                                                        <img className='icon-qanda icon-bubble' src={require('./images/if_icon-57-document-download_314897.ico')} alt={"Download PDF Icon"}/>
-                                                        Download PDF
+                                                    <a href="./images/Foo_Linda_Resume_2018.pdf" download="linda-foo-resume.pdf" alt="Download PDF" target="_blank">
+                                                        <img className='icon-download' src={require('./images/if_icon-57-document-download_314897.ico')} alt={"Download PDF Icon"}/>
+                                                        <span className='instruct-action'>Download PDF
                                                         </span>
                                                     </a>
+                                       
+                                        </div>
+                                        <div className='resume-desktop-only'>
+                                            <div className="detail">
+                                                <div className="desc">Skills & Tools</div>
+                                                    <div className="content">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={2}>
+                                                                        <ul className='resume-list tech'>
+                                                                            <li className='resume-item'><span className='item-style'>Frontend:</span> JavaScript ES6, HTML5, CSS3, Bootstrap, jQuery, AJAX/JSON, React, Redux</li>
+                                                                            <li className='resume-item'><span className='item-style'>Backend:</span> Node.js, Express.js, RESTful API, NoSQL (MongoDB), SQL (PostgreSQL), JWT (Passport)</li>
+                                                                            <li className='resume-item'><span className='item-style'>Testing:</span> Mocha, Chai, Enzyme</li>
+                                                                            <li className='resume-item'><span className='item-style'>Development Environment:</span> Visual Studio Code, Chrome Developer Tools, Git, Github, Travis CI, Heroku, Netlify, npm, mLab, Trello, Postman, Slack, Nodemon, dotenv</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
-                                                </li>
-                                            </ul>
-                                        </nav>                                            
-                                        </div>
-                                        <div className="detail">
-                                            <div className="desc">Experience</div>
-                                            <div className="content">
-                                                <table>
-                                                    <tbody>
-                                                        <tr className='table-header'>
-                                                            <th></th>
-                                                            <th></th>
-                                                        </tr>
-                                                        <tr className='table-detail'>
-                                                            <td className='organization'>Thinkful</td>
-                                                            <td className='year'>2017-2018</td>
-                                                        </tr>
-                                                        <tr className='table-detail'> 
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list'>
-                                                                    <li className='resume-item'>Build project</li>
-                                                                    <li className='resume-item'>Hello World</li>
-                                                                    <li className='resume-item'>Description</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td className='organization'>JPMorgan Chase & Co.</td>
-                                                            <td className='year'>2015-2017</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list'>
-                                                                    <li className='resume-item'>Build projectHLDJF</li>
-                                                                    <li className='resume-item'>Hello World</li>
-                                                                    <li className='resume-item'>Description</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                                <div className="desc">Experience</div>
+                                                    <div className="content">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr className='table-detail'>
+                                                                    <td className='year'>2015-2017</td>
+                                                                    <td className='organization'>JPMorgan Chase & Co.</td>
+                                                                    <td className='location'>Wilmington, DE</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={3} className='job-title'>Assistant Vice President - Internal Audit</td>
+                                                                </tr>
+                                                                <tr className='table-detail'> 
+                                                                    <td colSpan={2}>
+                                                                        <ul className='resume-list experience'>
+                                                                            <li className='resume-item'>Managed 18 operational reviews utilizing statistical and non-statistical sampling methodology to evaluate operational effectiveness, specializing in merchant payment processing services ($1 trillion in volume) and chargeback management & prevention</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td className='year'>2014-2015</td>
+                                                                    <td className='organization'>PricewaterhouseCoopers LLP</td>
+                                                                    <td className='location'>Philadelphia, PA</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={3} className='job-title'>Assurance Senior Associate</td>
+                                                                </tr>
+                                                                <tr className='table-detail'> 
+                                                                    <td colSpan={2}>
+                                                                        <ul className='resume-list experience'>
+                                                                            <li className='resume-item'>Leveraged interpersonal skills to forge strong professional relationships and convey a sense of urgency and timeliness with client management and staff at all levels; obtained two recognition awards for outstanding performance</li>
+                                                                            <li className='resume-item'>Supervised 9 staff and interns on audit engagements and restructured the onboarding process to educate staff on audit- and tax-related issues, the use of electronic databases, and audit software, increasing team productivity by 22% and reducing onboarding time by 50% </li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td className='year'>2012-2014</td>
+                                                                    <td className='organization'>Grant Thornton LLP</td>
+                                                                    <td className='location'>Houston, TX</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={3} className='job-title'>Senior Audit Associate</td>
+                                                                </tr>
+                                                                <tr className='table-detail'> 
+                                                                    <td colSpan={2}>
+                                                                        <ul className='resume-list experience'>
+                                                                            <li className='resume-item'>Executed financial statement audits for public and private companies with revenues ranging from $5 million to $2 billion in various industries, including Financial Services, Manufacturing, Aerospace, Restaurant, and Oil & Gas</li>
+                                                                            <li className='resume-item'>Received top-5% performance rating each year, generating $2M in revenue</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>                                      
+                                                <div className="desc">Education</div>
+                                                    <div className="content">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr className='table-detail'>
+                                                                    <td className='year'>2017-2018</td>
+                                                                    <td className='organization'>Thinkful</td>
+                                                                    <td className='location'>Sunnyvale, CA</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={3} className='program-title'>Full Time Engineering Immersion Program</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td className='year'>2007-2012</td>
+                                                                    <td className='organization'>The University of Texas at Austin, Red McCombs School of Business</td>
+                                                                    <td className='location'>Austin, TX</td>
+                                                                </tr>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={3} className='program-title'>Master in Professional Accounting & Bachelor of Business Administration</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                <div className="desc">Additional Information</div>
+                                                    <div className="content">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr className='table-detail'>
+                                                                    <td colSpan={2}>
+                                                                        <ul className='resume-list addl-info'>
+                                                                            <li className='resume-item'><span className='item-style'>Certificates:</span> Texas Certified Public Accountant (CPA)</li>
+                                                                            <li className='resume-item'><span className='item-style'>Honors & Awards:</span>Lesbians Who Tefch - Edie Windsor Coding Scholar (2017)</li>
+                                                                            <li className='resume-item'><span className='item-style'>Personal Interests:</span> Hiking (11 National Parks), Travel (15+ countries on 5 continents)</li>
+                                                                            <li className='resume-item'><span className='item-style'>Languages:</span>English (native), Khmer (conversational)</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        <div className="desc">Education</div>
-                                            <div className="content">
-                                                <table>
-                                                    <tbody>
-                                                        <tr className='table-header'>
-                                                            <th></th>
-                                                            <th></th>
-                                                        </tr>
-                                                        <tr className='table-detail'>
-                                                            <td className='organization'>Thinkful</td>
-                                                            <td className='year'>2017-2018</td>
-                                                        </tr>
-                                                        <tr className='table-detail'> 
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list education'>
-                                                                    <li className='resume-item'>Full Time Engineering Immersion Program</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td className='organization'>The University of Texas at Austin</td>
-                                                            <td className='year'>2012</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list education'>
-                                                                    <li className='resume-item'>Master in Professional Accounting</li>
-                                                                    <li className='resume-item'>Bachelor of Business Administration</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>                                      
-                                        <div className="desc">Skill</div>
-                                            <div className="content">
-                                                <table>
-                                                    <tbody>
-                                                        <tr className='table-header'>
-                                                            <th></th>
-                                                            <th></th>
-                                                        </tr>
-                                                        <tr className='table-detail'>
-                                                            <td className='organization'>Thinkful</td>
-                                                            <td className='year'>2017-2018</td>
-                                                        </tr>
-                                                        <tr className='table-detail'> 
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list education'>
-                                                                    <li className='resume-item'>Full Time Engineering Immersion Program</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td className='organization'>The University of Texas at Austin</td>
-                                                            <td className='year'>2012</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list education'>
-                                                                    <li className='resume-item'>Master in Professional Accounting</li>
-                                                                    <li className='resume-item'>Bachelor of Business Administration</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        <div className="desc">Honors & Awards</div>
-                                            <div className="content">
-                                                <table>
-                                                    <tbody>
-                                                        <tr className='table-header'>
-                                                            <th></th>
-                                                            <th></th>
-                                                        </tr>
-                                                        <tr className='table-detail'>
-                                                            <td className='organization'>Lesbians Who Tech</td>
-                                                            <td className='year'>2017</td>
-                                                        </tr>
-                                                        <tr className='table-detail'> 
-                                                            <td colSpan={2}>
-                                                                <ul className='resume-list education'>
-                                                                    <li className='resume-item'>Edie Windsor Coding Scholarship</li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div className="desc">Activities & Interests</div>
-                                            <div className="content">
-                                                <table>
-                                                    <tbody>
-                                                        <tr className='table-header'>
-                                                            <th></th>
-                                                        </tr>
-                                                        <tr className='table-detail'> 
-                                                            <td className='interests' colSpan={2}>Frugal Innovation, Hiking (11 National Parks), Extensive International Travel (5/7 continents)</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -444,7 +408,7 @@ export default class Home extends React.Component {
                                                     <div className='wrapper bottom-nav'>
                                                     <a className="return-to-top" href="#top">
                                                         <span> 
-                                                        <img className='icon-qanda icon-bubble' src={require('./images/if_ExpandLess_1031519.ico')} alt={"Return to Top Icon"}/> <br/>
+                                                        <img className='icon-return' src={require('./images/if_ExpandLess_1031519.ico')} alt={"Return to Top Icon"}/> <br/>
                                                         Return to Top
                                                         </span>
                                                     </a>

@@ -106,7 +106,8 @@
 }
 
 .card.startcontent{
-  padding-top: 50px;
+  padding-top: 60px;
+  margin-top: 10px;
 }
 
 .card.addl-content {
@@ -194,6 +195,7 @@ img.icon-bubble{
 
 .card.endcontent{
   padding-bottom: 50px;
+  margin-bottom: -10px;
 }
 
 /* ----------------------------------------------------------------------------------------------*/
@@ -283,14 +285,19 @@ table {
 }
 
 ul.resume-list {
-  list-style-type: circle;
-  padding: 10px;
+  list-style-type: disc;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 40px;
-  width: 100%
+  width: 100%;
 }
 
-.year {
-  text-align: right
+li.resume-item {
+  padding-bottom: 10px;
+}
+
+.item-style {
+  font-weight: 600
 }
 
 ul.resume-list.education {
@@ -298,31 +305,25 @@ ul.resume-list.education {
 }
 
 td.organization{
-  width: 70%;
+  width: 50%;
+  text-align: left;
+  font-weight: 600
 }
 
 td.year{
-  width: 30%
+  width: 50%;
+  text-align: right
+}
+
+td.job-title{
+  text-align: left;
+  padding-top: 10px;
+  font-weight: 600;
+  font-style: italic
 }
 
 .interests{
   text-align: left
-}
-
-.download-btn-container{
-  width: 100%;
-  text-align: center;
-  padding-top: 20px
-}
-
-.download-btn{
-  height: 65px;
-  width: 150px;
-  color: #565656;
-  background-color: #AEC5CB;
-  font-size: 1em; 
-  font-family: "din-2014", helvetica, sans-serif;
-  border-radius: 5px;
 }
 
 .card.endapp{
@@ -344,6 +345,25 @@ td.year{
   margin-top: -20px
 }
 
+.resume-desktop-only {
+  display: none
+}
+
+.instruct-action{
+  font-size: 1.5em
+}
+
+.card.resumecontent{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100vh;
+
+}
+
+.card.portfoliocontent{
+  padding-top: 100px;
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
