@@ -29,7 +29,7 @@ export default class Home extends React.Component {
                 <div className='container'>
                 <header id='top'>
                             <div className='row intro'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card hovercard" >
                                         <div className="cardheader">
                                             
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
                     </header>
                     <Scroll>{ scrollTop => 
                         <BoundingRect style={styles.boundingRect}>{rect =>
-                            <div className='col-lg-3 col-sm-6 navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
+                            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
                                 <nav className='topNav'>
                                     <ul className='topNav-list'>
                                         <li className="qanda">
@@ -101,7 +101,7 @@ export default class Home extends React.Component {
                     <div className='content-container'>   
                     <section id="qanda">           
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard startcontent" >
                                         <div className="smooth-spacer">
                                             
@@ -125,7 +125,7 @@ export default class Home extends React.Component {
                     </div> 
                     <div className='content-container'>          
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard addlcontent" >
                                         <div className="smooth-spacer">
                                             
@@ -144,7 +144,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className='content-container'>          
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard endcontent" >
                                         <div className="smooth-spacer">
                                             
@@ -177,8 +177,8 @@ export default class Home extends React.Component {
                     <div className='content-container'>   
                     <section id="portfolio">           
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
-                                    <div className="card contentcard portfoliocontent endcontent altcolor" >
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                                    <div className="card contentcard resumecontent endcontent altcolor" >
                                         <div className="smooth-spacer">
                                             
                                         </div>
@@ -237,7 +237,7 @@ export default class Home extends React.Component {
                     <div className='content-container'>   
                     <section id="resume">           
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard resumecontent endcontent" >
                                         <div className="smooth-spacer"> 
                                         </div>
@@ -375,7 +375,7 @@ export default class Home extends React.Component {
                     <div className='content-container'>   
                     <section id="contact">           
                             <div className='row'>
-                                <div className='col-lg-3 col-sm-6'>
+                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard startcontent endapp altcolor" >
                                         <div className="smooth-spacer">
                                             

@@ -4,7 +4,17 @@
  EDEDED
  AEC5CB
  */
+ .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 .intro {
   height: 100vh;
@@ -280,6 +290,12 @@ dev.linkBox > a {
   padding: 5px;
 }
 
+.download-btn-container {
+  padding-top: 75px;
+  justify-content: center
+}
+
+
 table {
   width: 100%
 }
@@ -350,7 +366,7 @@ td.job-title{
 }
 
 .instruct-action{
-  font-size: 1.5em
+  font-size: 1.5em;
 }
 
 .card.resumecontent{
