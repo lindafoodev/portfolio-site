@@ -4,11 +4,12 @@
  EDEDED
  AEC5CB
  */
- .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
+
+ .site-container {
   margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  overflow: hidden
 }
 
 .row {
@@ -344,6 +345,7 @@ td.job-title{
 
 .card.endapp{
   padding-bottom: 100px;
+  margin-bottom: -20px;
 }
 
 .contact-container p{

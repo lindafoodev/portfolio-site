@@ -17,7 +17,7 @@ import BoundingRect from './bounding-rect';
 const containerHeight = '100px';
 
 const styles = {
-  sticky: {  'maxWidth': '94.75vw', transform: 'translateX(-2.5%)', position: 'fixed', top: 0, 'marginRight': '1.5px', right: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
+  sticky: { 'width': '100%', position: 'fixed', top: '0', right: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
   container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
   boundingRect: { width: '100%', height: containerHeight },
 };
@@ -26,7 +26,7 @@ export default class Home extends React.Component {
 
     render(){
         return (
-                <div className='container'>
+                <div className='site-container'>
                 <header id='top'>
                             <div className='row intro'>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
                     </header>
                     <Scroll>{ scrollTop => 
                         <BoundingRect style={styles.boundingRect}>{rect =>
-                            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
+                            <div className='navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
                                 <nav className='topNav'>
                                     <ul className='topNav-list'>
                                         <li className="qanda">
@@ -178,7 +178,7 @@ export default class Home extends React.Component {
                     <section id="portfolio">           
                             <div className='row'>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                                    <div className="card contentcard resumecontent endcontent altcolor" >
+                                    <div className="card contentcard portfoliocontent endcontent altcolor" >
                                         <div className="smooth-spacer">
                                             
                                         </div>
