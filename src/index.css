@@ -36,7 +36,6 @@ save version
 }
 
 .card .title {
-  display: block;
   margin: 8px 14px 0 14px;
   overflow: hidden;
   font-family: "din-2014", helvetica, sans-serif;
@@ -47,7 +46,6 @@ save version
 }
 
 .card .desc {
-  display: block;
   margin: 8px 14px 0 14px;
   overflow: hidden;
   font-family: "din-2014", helvetica, sans-serif;
@@ -58,7 +56,6 @@ save version
 }
 
 .card .content {
-  display: block;
   margin: 8px 14px 0 14px;
   overflow: hidden;
   font-family: "din-2014", helvetica, sans-serif;
@@ -169,14 +166,14 @@ header {
 }
 
 .topNav-list {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   height: 100px;
   justify-content: space-around;
   text-align: center;
   padding-left: 10px;
   padding-bottom: 25px;
+  display: inline-block;
+  float: left;
 }
 
 .wrapper{
@@ -192,7 +189,6 @@ a, a:hover, a:active, a:visited, a:focus {
   }
 
 li [class^="icon-"] {
-  display: block;
   width: 3em;
   margin: auto;
 }
@@ -263,8 +259,6 @@ h6 {
 }
 
 .project-links{
-  display: flex;
-  justify-content: center;
   text-align: center;
   font-size: 1.5em; 
   font-family: "din-2014", helvetica, sans-serif;
