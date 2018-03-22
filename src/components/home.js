@@ -114,7 +114,7 @@ export default class Home extends React.Component {
                                         </div>
                                         <div className="detail">
                                             <div className="content">
-                                                <p className="qp first-paragraph">I am a former accountant turned developer who is known for my ability to effectively decipher information and efficiently utilize resources available to me to drive performance. I have a proven track record of continuously taking on challenges to further my personal development.</p><br/>
+                                                <p className="qp first-paragraph">I am a former accountant turned developer who is known for my ability to effectively decipher information and efficiently utilize resources available to me to drive performance. I have a proven track record of continuously taking on challenges to further my personal and professional development.</p><br/>
                                                 <p className="qp second-paragraph">I graduated from The University of Texas at Austin with a Bachelor of Business Administration and a Master in Professional Accounting. I am a licensed CPA. My professional experiences include managing operational reviews for JPMorgan Chase & Co. and external financial audits for PricewaterhouseCoopers LLP (PwC) and Grant Thornton LLP. I have worked on a variety of projects in various industries including Financial Services, Manufacturing, Aerospace, Restaurant, and Oil & Gas.</p>
                                             </div>
                                         </div>
