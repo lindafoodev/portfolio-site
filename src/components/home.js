@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import Scroll from './scroll';
-import BoundingRect from './bounding-rect';
+//import Scroll from './scroll';
+//import BoundingRect from './bounding-rect';
 //import { StickyContainer, Sticky } from 'react-sticky';
 
 // import LandingPage from './landing-page';
@@ -12,94 +12,11 @@ import BoundingRect from './bounding-rect';
 // import Resume from './resume';
 // import Contact from './contact';
 
-
-
-const containerHeight = '100px';
-
-const styles = {
-  sticky: { 'width': '100%', position: 'fixed', top: '0', right: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
-  container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
-  boundingRect: { width: '100%', height: containerHeight },
-};
-
 export default class Home extends React.Component {
 
     render(){
         return (
-                <div className='site-container'>
-                <header id='top'>
-                            <div className='row intro'>
-                                <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                                    <div className="card hovercard" >
-                                        <div className="cardheader">
-                                            
-                                        </div>
-                                        <div className="avatar">
-                                            <img src={require('./images/avatar-linda.jpg')} alt={"linda foo profile"}/>
-                                        </div>
-                                        <div className="info">
-                                            <div className="title">
-                                                Linda Foo
-                                            </div>
-                                            <div className="desc">Developer</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </header>
-                    <Scroll>{ scrollTop => 
-                        <BoundingRect style={styles.boundingRect}>{rect =>
-                            <div className='navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
-                                <nav className='topNav'>
-                                    <ul className='topNav-list'>
-                                        <li className="qanda">
-                                            <div className='wrapper'>
-                                            <a className="qanda" href="#qanda">
-                                                <span> 
-                                                <img className='icon-qanda icon-bubble' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> <br/>
-                                                Q&A
-                                                </span>
-                                            </a>
-                                            </div>
-                                        </li>
-                                        <li className="portfolio">
-                                        <div className='wrapper'>
-                                            <a className="portfolio" href="#portfolio">
-                                                <span> 
-                                                <img className='icon-portfolio icon-bubble' src={require('./images/290140 - folder.ico')} alt={"Portfolio Icon"}/> <br/>
-                                                PORTFOLIO
-                                                </span>
-                                            </a>
-                                            </div>
-                                        </li>
-                                        <li className="resume">
-                                        <div className='wrapper'>
-                                            <a className="resume" href="#resume">
-                                                <span> 
-                                                <img className='icon-resume icon-bubble' src={require('./images/290138 - file.ico')} alt={"Resume Icon"}/> <br/>
-                                                RESUME
-                                                </span>
-                                            </a>
-                                            </div>
-                                        </li>
-                                        <li className="contact">
-                                        <div className='wrapper'>
-                                        <a className="contact" href="#contact">
-                                                <span> 
-                                                <img className='icon-contact icon-bubble' src={require('./images/if_phone1_172517.ico')} alt={"Contact Icon"}/> <br/>
-                                                CONTACT
-                                                </span>
-                                            </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                </div>
-                            
-                        }</BoundingRect>
-                    }</Scroll>
-                    <div className='content-container'>   
-                    <section id="qanda">           
+                <div className='site-container'>         
                             <div className='row'>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className="card contentcard startcontent" >
