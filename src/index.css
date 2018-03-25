@@ -1,0 +1,15 @@
+.site-container{
+  background-color: red;
+  margin: 50px;
+}
+
+.row {
+  background-color: orange;
+  border: solid black 1px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.questions-container{
+  margin: 0 auto
+}

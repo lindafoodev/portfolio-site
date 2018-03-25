@@ -25,7 +25,7 @@ export default class Home extends React.Component {
             <div className='site-container'> 
                 <section id='questions'>        
                     <div className='row'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
                             <div className="questions-container">
                                 <div className="questions-title">
                                     Question & Answer
@@ -41,7 +41,7 @@ export default class Home extends React.Component {
                         </div>
                     </div>       
                     <div className='row'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
                             <div className="questions-container">
                                 <div className="questions-question">
                                     What are you passionate about?
@@ -84,7 +84,7 @@ export default class Home extends React.Component {
                 </section>
                 <section id="portfolio">             
                     <div className='row'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
                             <div className="portfolio-container">
                                 <div className="portfolio-title">
                                     Portfolio
