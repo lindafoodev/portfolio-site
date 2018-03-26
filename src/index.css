@@ -1,15 +1,168 @@
-.site-container{
-  background-color: red;
-  margin: 50px;
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap 
+ 565656
+ EDEDED
+ AEC5CB
+save version
+ */
+
+
+.site-container { 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  overflow: hidden
 }
 
 .row {
-  background-color: orange;
-  border: solid black 1px;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-.questions-container{
-  margin: 0 auto
+#top {
+  height: 100vh;
+  margin-bottom: -100px;
+}
+
+.cardheader-image {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  box-shadow: none;
+  box-sizing: border-box;
+  height: 100%
+}
+
+.top-name {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  color: #565656;
+}
+
+.top-title {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-family: "din-2014", helvetica, sans-serif;
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #EDEDED; 
+  text-overflow: ellipsis;
+}
+
+.top-container { 
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #AEC5CB;
+}
+
+.cardheader-image { 
+  background: url('./components/images/linh-nguyen-145766-unsplash.jpg');
+  background-size: cover;
+  height: 40%;
+}
+
+.avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.avatar img {
+  width: 125px;
+  height: 125px;
+  max-width: 125px;
+  max-height: 125px;
+  border-radius: 50%;
+  border: 5px solid #EDEDED;
+}
+
+.top-info {
+  padding: 4px 8px 10px;
+}
+
+/*------------------------------------------------------------------------------------------ */
+.content-container{
+  position: relative;
+  margin-top: -10px;
+}
+
+.navOnTop{
+  z-index: 100;
+}
+
+.topNav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+.wrapper{
+  padding-right: 3px;
+  padding-left: 3px
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    padding: 5px;
+    color: #565656;
+    font-family: "din-2014", helvetica, sans-serif;
+  }
+
+li [class^="icon-"] {
+  display: block;
+  width: 3em;
+  margin: auto;
+}
+
+img.icon-bubble{
+  width:30px;
+  height: 30px
+}
+
+.card.altcolor {
+  background-color: #AEC5CB;
+}
+
+.card.endcontent{
+  padding-bottom: 50px;
+  margin-bottom: -10px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
 }
