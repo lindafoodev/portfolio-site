@@ -153,6 +153,9 @@ li [class^="icon-"] {
   margin: auto; /*center aligns icons*/
 }
 
+
+/*NAVBAR STYLING - END ---------------------------------------------------------------------*/
+
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
 #questions { 
   text-align: left; /*centers avatar and text */
@@ -188,7 +191,12 @@ li [class^="icon-"] {
 
 /*QUESTIONS STYLING - END ---------------------------------------------------------------------*/
 
-/*NAVBAR STYLING - END ---------------------------------------------------------------------*/
+/*PORTFOLIO STYLING - START ---------------------------------------------------------------------*/
+
+
+
+/*PORTFOLIO STYLING - END ---------------------------------------------------------------------*/
+
 @media only screen and (min-width: 800px) {
   .one {
     width: 100%;
