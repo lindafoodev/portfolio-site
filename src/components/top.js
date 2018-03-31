@@ -5,7 +5,7 @@ import './top.css';
 export default function Top() {
     return (
           <section id='top'>
-              <div className="container">
+              <div className="section">
                   <div className='allocate-container'>
                       <div className="top-container" >
                           <div className="cardheader-image">

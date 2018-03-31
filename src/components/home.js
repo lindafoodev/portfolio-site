@@ -31,7 +31,7 @@ export default class Home extends React.Component {
 
     render(){
         return (
-            <div className='site-container'>
+            <div className='main'>
                 <Top/>
                 <Scroll>{ scrollTop => 
                         <BoundingRect style={styles.boundingRect}>{rect =>
@@ -84,7 +84,7 @@ export default class Home extends React.Component {
                         }</BoundingRect>
                     }</Scroll> 
                 <section id='questions'>        
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-title">
@@ -100,7 +100,7 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>       
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
@@ -112,7 +112,7 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
@@ -126,7 +126,7 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
@@ -143,7 +143,7 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id="portfolio">             
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="portfolio-container">
                                 <div className="portfolio-title">
@@ -194,7 +194,7 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id='resume'>        
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="resume-container">
                                 <div className="resume-title">
@@ -211,7 +211,7 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id='contact'>        
-                    <div className='container'>
+                    <div className='section'>
                         <div className='allocate-container'>
                             <div className="contact-container">
                                 <div className="contact-title">
