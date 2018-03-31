@@ -8,6 +8,9 @@ https://www.taniarascia.com/you-dont-need-a-framework/
 QUESTIONS/NEED TO FIX
 Search for QUEST
 -how to get scrolling navbar to also have side margin - on right???? to match white space around portfolio page?
+
+-go back in and adjust rem and em
+
 -go back in and make semantic - will need to refactor later!!!!!!!!
 .container => main; row is section; column is article/aside
 <div class="container">
