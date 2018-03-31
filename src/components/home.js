@@ -22,7 +22,7 @@ const containerHeight = '100px';
 //adjust left to 7 if i decide not to keep body margin;
 
 const styles = {
-    sticky: { width: '100%', position: 'fixed', top: '0', right: '0', left: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
+    sticky: { width: '100%', position: 'fixed', top: '0', right: '0', left: '0', 'backgroundColor': '#EDEDED', border: '1px solid #EDEDED'},
     container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
     boundingRect: { width: '100%', height: containerHeight },
 };
