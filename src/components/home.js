@@ -32,8 +32,8 @@ export default class Home extends React.Component {
         return (
             <div className='site-container'>
                 <section id='top'>
-                    <div className="row">
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <div className="container">
+                        <div className='allocate-container'>
                             <div className="top-container" >
                                 <div className="cardheader-image">
                                 </div>
@@ -101,8 +101,8 @@ export default class Home extends React.Component {
                         }</BoundingRect>
                     }</Scroll> 
                 <section id='questions'>        
-                    <div className='row'>
-                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-title">
                                     Question & Answer
@@ -117,20 +117,20 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>       
-                    <div className='row'>
-                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
                                     What are you passionate about?
                                 </div>
                                 <div className="questions-content">
-                                    <p className="questions-paragraph">I am passionate about making a positive impact in my community and growing through new experiences. I appreciate challenges and I continuously seek out opportunities for growth whether it’s surrounding myself with talented people or exposing myself to other cultures through travel. I strive to be a better version of myself and an active contributor to society.</p>
+                                    <p className="questions-paragraph">I am passionate about making a positive impact in my community and gcontainering through new experiences. I appreciate challenges and I continuously seek out opportunities for gcontainerth whether it’s surrounding myself with talented people or exposing myself to other cultures through travel. I strive to be a better version of myself and an active contributor to society.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
                                     Why programming?
@@ -143,8 +143,8 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="questions-container">
                                 <div className="questions-question">
                                     How does your past experience make you a good developer?
@@ -160,8 +160,8 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id="portfolio">             
-                    <div className='row'>
-                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="portfolio-container">
                                 <div className="portfolio-title">
                                     Portfolio
@@ -211,8 +211,8 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id='resume'>        
-                    <div className='row'>
-                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="resume-container">
                                 <div className="resume-title">
                                     Resume
@@ -228,8 +228,8 @@ export default class Home extends React.Component {
                     </div>
                 </section>
                 <section id='contact'>        
-                    <div className='row'>
-                        <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='container'>
+                        <div className='allocate-container'>
                             <div className="contact-container">
                                 <div className="contact-title">
                                     Contact

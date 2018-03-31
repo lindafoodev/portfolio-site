@@ -6,6 +6,8 @@ NOTES:
 top, right, bottom, left
 margin - use when
 padding - use when
+changed 'row' to 'container'
+changed 'col-lg-12 col-md-12 col-sm-12 col-xs-12' to allocate-container' 
 */
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -96,8 +98,8 @@ save version
   justify-content: space-around;
   text-align: center;
   padding-left: 10px;
-  padding-bottom: 25px;
-  list-style: none;
+  padding-bottom: 50px;
+  list-style-type: none;
 }
 
 /*
@@ -107,11 +109,15 @@ placeholder - for future styling if needed - div around link/nav icons
   padding-left: 3px
 }*/
 
-a, a:hover, a:active, a:visited, a:focus {
-    padding: 5px;
+a, a:visited {
     color: #565656;
     font-family: "din-2014", helvetica, sans-serif;
+    text-decoration: none;
   }
+
+a:hover, a:focus { /*hover - mouse hover; focus - keyboard */
+  text-decoration: underline;
+}
 
 img.icon-bubble{
   width:30px;
