@@ -5,7 +5,7 @@ import React from 'react';
 import Scroll from './scroll';
 import BoundingRect from './bounding-rect';
 
-// import Top from './top';
+import Top from './top';
 // import QuestionAndAnswer from './question-and-answer';
 // import Portfolio from './portfolio';
 // import Resume from './resume';
@@ -19,8 +19,10 @@ import BoundingRect from './bounding-rect';
 
 const containerHeight = '100px';
 
+//adjust left to 7 if i decide not to keep body margin;
+
 const styles = {
-    sticky: { 'width': '100%', position: 'fixed', top: '0', right: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
+    sticky: { width: '100%', position: 'fixed', top: '0', right: '0', left: '0', 'backgroundColor': '#AEC5CB', border: '1px solid #EDEDED'},
     container: { width: '100%', height: containerHeight, overflow: 'hidden', position: 'relative'},
     boundingRect: { width: '100%', height: containerHeight },
 };
@@ -30,25 +32,7 @@ export default class Home extends React.Component {
     render(){
         return (
             <div className='site-container'>
-                <section id='top'>
-                    <div className="container">
-                        <div className='allocate-container'>
-                            <div className="top-container" >
-                                <div className="cardheader-image">
-                                </div>
-                                <div className="avatar">
-                                    <img src={require('./images/avatar-linda.jpg')} alt={"linda foo profile"}/>
-                                </div>
-                                <div className="top-info">
-                                    <div className="top-name">
-                                        Linda Foo
-                                    </div>
-                                    <div className="top-title">Developer</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <Top/>
                 <Scroll>{ scrollTop => 
                         <BoundingRect style={styles.boundingRect}>{rect =>
                             <div className='navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>

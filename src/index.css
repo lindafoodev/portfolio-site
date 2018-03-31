@@ -1,14 +1,26 @@
 /*
 QUESTIONS/NEED TO FIX
+Search for QUEST
+-how to get scrolling navbar to also have side margin - on right???? to match white space around portfolio page?
 */
 /*
 NOTES:
-top, right, bottom, left
-margin - use when
-padding - use when
-changed 'row' to 'container'
-changed 'col-lg-12 col-md-12 col-sm-12 col-xs-12' to allocate-container' 
-<p> => native line break after text
+#top, right, bottom, left
+
+#margin - use when
+
+#padding - use when
+
+#changed 'row' to 'container'
+
+#changed 'col-lg-12 col-md-12 col-sm-12 col-xs-12' to allocate-container' 
+
+#<p> => native line break after text
+
+#top is for tweak an element with use of position property.
+margin-top is for measuring the external distance to the element, in relation to the previous one.
+
+Also, top behavior can differ depending on the type of position, absolute, relative or fixed.
 */
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -26,15 +38,32 @@ save version
   box-sizing: inherit;
 }
 
+body{
+  background-color: #AEC5CB;
+}
+
+/*
+I like the border around the portfolio (although will make offset white/other color?) - 
+this styling will remove white border around content
+NOTE: Add in if not able to address navbar right QUEST and modify navbar style as needed
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+ }
+ */
+
 .site-container { 
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden /*does not show overflow - no horizontal scrollbar needed*/
+  overflow: hidden; /*does not show overflow - no horizontal scrollbar needed*/
+  background-color: white;
 }
 
 #top {
   height: 100vh;
-  margin-bottom: -100px; /*needed to incorporate nav bar at bottom of top page*/
+  margin-bottom: -100px; /*needed to incorporate nav bar at bottom of top page NOTE: Need to match navBar "containerHeight"*/
 }
 
 .top-container { 
