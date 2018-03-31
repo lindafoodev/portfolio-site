@@ -61,6 +61,7 @@ body {
   background-color: white;
 }
 
+/*TOP STYLING - START ---------------------------------------------------------------------*/
 #top {
   height: 100vh;
   margin-bottom: -100px; /*needed to incorporate nav bar at bottom of top page NOTE: Need to match navBar "containerHeight"*/
@@ -113,8 +114,9 @@ body {
   color: #EDEDED;
   margin: 8px 14px 0 14px; 
 }
+/*TOP STYLING - END ---------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------------------------------ */
+/*NAVBAR STYLING - START ---------------------------------------------------------------------*/
 .navOnTop{
   z-index: 200; /* set +xxx value so navbar appears "on top" of contents 
   QUEST: the value seems arbitrary as long as high enough to cushion on top of other items; how to*/
@@ -158,6 +160,8 @@ li [class^="icon-"] {
   display: block; /*brings text below icons/icon above text*/
   margin: auto; /*center aligns icons*/
 }
+
+/*NAVBAR STYLING - END ---------------------------------------------------------------------*/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
