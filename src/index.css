@@ -1,7 +1,7 @@
 /* 
- 565656
- EDEDED
- AEC5CB
+ 565656 - blackish
+ EDEDED - greyish
+ AEC5CB - blueish
  */
 
  html {
@@ -50,6 +50,7 @@ body {
   margin-right: auto;
   overflow: hidden; /*does not show overflow - no horizontal scrollbar needed*/
   background-color: white;
+  max-width: 740px;
 }
 
 /*TOP STYLING - START ---------------------------------------------------------------------*/
@@ -151,6 +152,41 @@ li [class^="icon-"] {
   display: block; /*brings text below icons/icon above text*/
   margin: auto; /*center aligns icons*/
 }
+
+/*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
+#questions { 
+  text-align: left; /*centers avatar and text */
+  background-color: #EDEDED;
+  font-family: "din-2014", helvetica, sans-serif;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width:740px;
+}
+
+.questions-title{
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  color: #565656;
+}
+
+.questions-question{
+  padding-top: 20px;
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #AEC5CB; 
+  text-overflow: ellipsis; /*in case of overflow*/
+}
+
+.questions-paragraph{
+  font-size: 1.5em;
+  line-height: 1.58em;
+  color: #565656; 
+  text-overflow: ellipsis; /*in case of overflow*/
+}
+
+/*QUESTIONS STYLING - END ---------------------------------------------------------------------*/
 
 /*NAVBAR STYLING - END ---------------------------------------------------------------------*/
 @media only screen and (min-width: 800px) {
