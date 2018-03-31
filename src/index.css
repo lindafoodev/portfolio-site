@@ -1,6 +1,12 @@
 /*
 QUESTIONS/NEED TO FIX
 */
+/*
+NOTES:
+top, right, bottom, left
+margin - use when
+padding - use when
+*/
 
 /* Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap 
@@ -56,37 +62,34 @@ save version
   border: 5px solid #EDEDED; 
 }
 
-.top-info {
+.top-info { /*contains top-name and top-title*/
   padding: 4px 0px 10px 0px; /*top, right, bottom, left NOTE: don't really need it - more for styling - leaving as is for future mods if needed*/
+  font-family: "din-2014", helvetica, sans-serif;
 }
 
 .top-name {
-  margin: 8px 14px 0 14px;
-  font-family: "din-2014", helvetica, sans-serif;
   font-size: 3em;
   font-weight: bold;
   line-height: 1em;
   color: #565656;
+  margin: 8px 14px 0 14px;
 }
 
 .top-title {
-  display: block;
-  margin: 8px 14px 0 14px;
-  overflow: hidden;
-  font-family: "din-2014", helvetica, sans-serif;
   font-size: 2em;
   line-height: 1.25em;
-  color: #EDEDED; 
-  text-overflow: ellipsis;
+  color: #EDEDED;
+  margin: 8px 14px 0 14px; 
 }
 
 /*------------------------------------------------------------------------------------------ */
 .navOnTop{
-  z-index: 100;
+  z-index: 200; /* set +xxx value so navbar appears "on top" of contents 
+  QUEST: the value seems arbitrary as long as high enough to cushion on top of other items; how to*/
 }
 
 .topNav-list {
-  display: flex;
+  display: flex; /*flexbox for navbar - enable row direction stack horizontally rather than vertically*/
   flex-direction: row;
   align-items: center;
   height: 100px;
@@ -97,10 +100,12 @@ save version
   list-style: none;
 }
 
+/*
+placeholder - for future styling if needed - div around link/nav icons
 .wrapper{
   padding-right: 3px;
   padding-left: 3px
-}
+}*/
 
 a, a:hover, a:active, a:visited, a:focus {
     padding: 5px;
@@ -114,8 +119,8 @@ img.icon-bubble{
 }
 
 li [class^="icon-"] {
-  display: block;
-  margin: auto;
+  display: block; /*brings text below icons/icon above text*/
+  margin: auto; /*center aligns icons*/
 }
 
 /* Small devices (landscape phones, 576px and up) */
