@@ -8,6 +8,7 @@ margin - use when
 padding - use when
 changed 'row' to 'container'
 changed 'col-lg-12 col-md-12 col-sm-12 col-xs-12' to allocate-container' 
+<p> => native line break after text
 */
 
 /* Extra small devices (portrait phones, less than 576px)

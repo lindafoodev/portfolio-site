@@ -4,15 +4,14 @@ import React from 'react';
 
 import Scroll from './scroll';
 import BoundingRect from './bounding-rect';
-//import { StickyContainer, Sticky } from 'react-sticky';
 
-// import LandingPage from './landing-page';
+// import Top from './top';
 // import QuestionAndAnswer from './question-and-answer';
 // import Portfolio from './portfolio';
 // import Resume from './resume';
 // import Contact from './contact';
 
-/* <LandingPage />
+/* <Top />
                 <QuestionAndAnswer />
                 <Portfolio />
                 <Resume />

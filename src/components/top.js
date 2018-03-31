@@ -1,8 +1,8 @@
 // import React from 'react';
 
-// import './resume.css';
+// import './top.css';
 
-// export default function Resume() {
+// export default function Top() {
 //     return (
 // 
 //     );
