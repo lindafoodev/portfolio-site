@@ -51,6 +51,12 @@ body {
   overflow: hidden; /*does not show overflow - no horizontal scrollbar needed*/
   background-color: white;
   max-width: 740px;
+  font-family: "din-2014", helvetica, sans-serif;
+}
+
+div [class^="icon-"] {
+  display: block; /*brings text below icons/icon above text*/
+  margin: auto; /*center aligns icons*/
 }
 
 /*TOP STYLING - START ---------------------------------------------------------------------*/
@@ -89,7 +95,6 @@ body {
 
 .top-info { /*contains top-name and top-title*/
   padding: 4px 0px 10px 0px; /*top, right, bottom, left NOTE: don't really need it - more for styling - leaving as is for future mods if needed*/
-  font-family: "din-2014", helvetica, sans-serif;
 }
 
 .top-name {
@@ -135,7 +140,6 @@ placeholder - for future styling if needed - div around link/nav icons
 
 a, a:visited {
     color: #565656;
-    font-family: "din-2014", helvetica, sans-serif;
     text-decoration: none;
   }
 
@@ -148,19 +152,12 @@ img.icon-bubble{
   height: 30px
 }
 
-li [class^="icon-"] {
-  display: block; /*brings text below icons/icon above text*/
-  margin: auto; /*center aligns icons*/
-}
-
-
 /*NAVBAR STYLING - END ---------------------------------------------------------------------*/
 
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
 #questions { 
   text-align: left; /*centers avatar and text */
   background-color: #EDEDED;
-  font-family: "din-2014", helvetica, sans-serif;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -195,7 +192,6 @@ li [class^="icon-"] {
 #portfolio { 
   text-align: left; /*centers avatar and text */
   background-color: #AEC5CB;
-  font-family: "din-2014", helvetica, sans-serif;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -274,6 +270,107 @@ li [class^="icon-"] {
 
 /*PORTFOLIO STYLING - END ---------------------------------------------------------------------*/
 
+/*RESUME STYLING - START ---------------------------------------------------------------------*/
+#resume {
+  text-align: left; /*centers avatar and text */
+  background-color: #EDEDED;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100vh;
+}
+
+.resume-title{
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  color: #565656;
+}
+
+.resume-file-container{ 
+  text-align: center; /*centers avatar and text */
+  font-size: 2.75em;
+  background-color: #EDEDED;
+  width: 50%;
+  margin: auto;
+  /*padding: 10px maybe utilize - looks kind of nice*/
+}
+
+.resume-download-list {
+  list-style-type: none;
+  margin-left: -40px; /*override ul padding default 40px*/
+}
+
+
+.icon-text{
+  color: #AEC5CB;
+}
+
+img.icon-download{
+  max-width: 250px;
+}
+
+/*RESUME STYLING - END ---------------------------------------------------------------------*/
+
+/*CONTACT STYLING - START ---------------------------------------------------------------------*/
+
+#contact {
+  background-color: #AEC5CB;
+  padding-top: 125px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  line-height: 1.5em;
+  height: 100vh;
+}
+
+.contact-title{
+  padding-bottom: 25px;
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+  color: #565656;
+}
+
+.contact-text, .contact-type{
+  color: #EDEDED; 
+}
+
+.contact-detail{ 
+  text-align: center; 
+  font-size: 1.5em;
+  color: #565656;
+  word-wrap: break-word;
+}
+
+/*CONTACT STYLING - END ---------------------------------------------------------------------*/
+
+/*BOTTOM NAV STYLING - START ---------------------------------------------------------------------*/
+.bottom-nav-container{ 
+  margin-top: -125px;
+  text-align: center; /*centers avatar and text */
+  /*padding: 10px maybe utilize - looks kind of nice*/
+}
+
+.bottom-nav-list {
+  list-style-type: none;
+  margin-left: -40px; /*override ul padding default 40px*/
+}
+
+
+span > .icon-return{
+  width:30px;
+  height: 30px;
+}
+
+.return-wrapper{
+  width: 30%;
+  text-align: center; /*centers avatar and text */
+  margin: auto;
+}
+
+
+/*BOTTOM NAV STYLING - END---------------------------------------------------------------------*/
 @media only screen and (min-width: 800px) {
   .one {
     width: 100%;

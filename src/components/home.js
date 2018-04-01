@@ -208,10 +208,17 @@ export default class Home extends React.Component {
                                     Resume
                                 </div>
                                 <div className="resume-file-container">
-                                    <a href="./images/Foo_Linda_Resume_2018.pdf" download="linda-foo-resume.pdf" alt="Download PDF" target="_blank">
-                                        <img className='icon-download' src={require('./images/if_icon-57-document-download_314897.ico')} alt={"Download PDF Icon"}/>
-                                        <span className='instruct-action'>Download PDF</span>
-                                    </a>
+                                    <ul className="resume-download-list">
+                                        <li className="download">
+                                            <div className='download-wrapper'>
+                                                <a className="resume" href="./images/Foo_Linda_Resume_2018.pdf" download="linda-foo-resume.pdf" alt="Download PDF" target="_blank">
+                                                    <span className='icon-text'>
+                                                    <img className='icon-download' src={require('./images/if_icon-57-document-download_314897.ico')} alt={"Download PDF Icon"}/>
+                                                    Download PDF</span>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -224,16 +231,14 @@ export default class Home extends React.Component {
                                 <div className="contact-title">
                                     Contact
                                 </div>
-                                <div className="contact-detail-container">
-                                    <div className="contact-detail">
-                                        <p className='contact-text'>Let's Connect!</p>
-                                        <p className='contact-type'>Email</p>
-                                        <p><a className='contact-link' target="_top" href="mailto:lindafoodev@gmail.com">lindafoodev@gmail.com</a></p>
-                                        <p className='contact-type'>LinkedIn</p>
-                                        <p><a className='contact-link' href="https://www.linkedin.com/in/linda-foo">linkedin.com/in/linda-foo</a></p>
-                                        <p className='contact-type'>Github</p> 
-                                        <p><a className='contact-link' href="https://github.com/lindafoodev">lindafoodev</a></p>
-                                    </div>
+                                <div className="contact-detail">
+                                    <p className='contact-text'>Let's Connect!</p>
+                                    <p className='contact-type'>Email</p>
+                                    <p className='contact-info'><a className='contact-link' target="_top" href="mailto:lindafoodev@gmail.com">lindafoodev@gmail.com</a></p>
+                                    <p className='contact-type'>LinkedIn</p>
+                                    <p className='contact-info'><a className='contact-link' href="https://www.linkedin.com/in/linda-foo">linkedin.com/in/linda-foo</a></p>
+                                    <p className='contact-type'>Github</p> 
+                                    <p className='contact-info'><a className='contact-link' href="https://github.com/lindafoodev">lindafoodev</a></p>
                                 </div>
                             </div>
                         </div>
@@ -243,9 +248,9 @@ export default class Home extends React.Component {
                     <div className="bottom-nav-container">
                         <ul className='bottom-nav-list'>
                             <li className="return-to-top">
-                                <div className="button-wrapper">
-                                    <a className="bottom-nav-link" href="#top">
-                                        <span> 
+                                <div className="return-wrapper">
+                                    <a className="bottom-nav" href="#top">
+                                        <span className="icon-return"> 
                                         <img className='icon-return' src={require('./images/if_ExpandLess_1031519.ico')} alt={"Return to Top Icon"}/> 
                                         Return to Top
                                         </span>

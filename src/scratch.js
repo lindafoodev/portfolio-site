@@ -51,3 +51,12 @@ margin-top is for measuring the external distance to the element, in relation to
 
 Also, top behavior can differ depending on the type of position, absolute, relative or fixed.
 */
+
+<div className='wrapper'>
+  <a className="qanda" href="#questions">
+      <span> 
+      <img className='icon-qanda icon-bubble' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> 
+      Q&A
+      </span>
+  </a>
+</div>
