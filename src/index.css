@@ -12,9 +12,7 @@
 }
 
 .section::before,
-.section::after { /*clearfix - just contains columns
-  It is one of those ugly things that we all just have to live with as it is really the only reasonable way of ensuring floated child elements don't overflow their parents. There are other layout schemes out there but floating is too commonplace in web design/development today to ignore the value of the clearfix hack. (what???? - Not 100% what this really means but have a feeling this is good to include for current/future styling) QUEST
-  */
+.section::after { /*clearfix QUEST*/
   display: table;
   content: " ";
   clear: both;
@@ -24,7 +22,7 @@ body{
   background-color: #EDEDED;
 }
 
-/*all columns are full width on mobile*/
+/*all columns are full width on mobile - retain for future use*/
 .one,
 .one-third,
 .two-thirds,
@@ -34,9 +32,7 @@ body{
 }
 
 /*
-I like the border around the portfolio (although will make offset white/other color?) - 
-this styling will remove white border around content
-NOTE: Add in if not able to address navbar right QUEST and modify navbar style as needed
+I like the border around the portfolio - code to not have - retain for future use
 body {
   margin-top: 0px;
   margin-right: 0px;
@@ -48,7 +44,7 @@ body {
 .main { 
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden; /*does not show overflow - no horizontal scrollbar needed*/
+  overflow: hidden; /*does not show overflow - no horizontal scrollbar*/
   background-color: white;
   max-width: 740px;
   font-family: "din-2014", helvetica, sans-serif;
@@ -69,19 +65,18 @@ div [class^="icon-"] {
   text-align: center; /*centers avatar and text */
   background-color: #AEC5CB;
   height: 100vh;
-  /*padding: 10px maybe utilize - looks kind of nice*/;
 }
 
 .cardheader-image {
   background: url('./components/images/linh-nguyen-145766-unsplash.jpg');
   background-size:cover;
-  background-position:top; /*ADJUST BASED ON SCREEN SIZE center (mobile?), bottom, top (default) https://www.w3schools.com/cssref/pr_background-position.asp*/
+  background-position:top; /*ADJUST BASED ON SCREEN SIZE - center (mobile?), bottom, top (default) https://www.w3schools.com/cssref/pr_background-position.asp*/
   height: 45%;
 }
 
 .avatar {
   position: relative; /*relative - position relative to another element; in this case the cardheader-image - will sit flush below if margin is not adjusted */
-  margin: -60px 0px 15px 0px; /*adjust top margin to shift avatar down relative to cardheader image; adjust bottom margin to shift top info down relative to avatar; top margin; right margin; bottom margin; left margin*/
+  margin: -60px 0px 15px 0px; /*adjust top margin to shift avatar relative to cardheader image; adjust bottom margin to shift top info down relative to avatar; top margin; right margin; bottom margin; left margin*/
 }
 
 .avatar img {
@@ -116,7 +111,7 @@ div [class^="icon-"] {
 /*NAVBAR STYLING - START ---------------------------------------------------------------------*/
 .navOnTop{
   z-index: 200; /* set +xxx value so navbar appears "on top" of contents 
-  QUEST: the value seems arbitrary as long as high enough to cushion on top of other items; how to*/
+  QUEST: the value seems arbitrary as long as high enough to cushion on top of other items*/
 }
 
 .topNav-list {
@@ -130,13 +125,6 @@ div [class^="icon-"] {
   padding-bottom: 50px;
   list-style-type: none;
 }
-
-/*
-placeholder - for future styling if needed - div around link/nav icons
-.wrapper{
-  padding-right: 3px;
-  padding-left: 3px
-}*/
 
 a, a:visited {
     color: #565656;
@@ -294,7 +282,6 @@ img.icon-bubble{
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  /*padding: 10px maybe utilize - looks kind of nice*/
 }
 
 .resume-download-list {
@@ -350,14 +337,12 @@ img.icon-download{
 .bottom-nav-container{ 
   margin-top: -125px;
   text-align: center; /*centers avatar and text */
-  /*padding: 10px maybe utilize - looks kind of nice*/
 }
 
 .bottom-nav-list {
   list-style-type: none;
   margin-left: -40px; /*override ul padding default 40px*/
 }
-
 
 span > .icon-return{
   width:30px;
@@ -369,7 +354,6 @@ span > .icon-return{
   text-align: center; /*centers avatar and text */
   margin: auto;
 }
-
 
 /*BOTTOM NAV STYLING - END---------------------------------------------------------------------*/
 @media only screen and (min-width: 800px) {

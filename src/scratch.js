@@ -9,7 +9,7 @@ QUESTIONS/NEED TO FIX
 Search for QUEST
 -how to get scrolling navbar to also have side margin - on right???? to match white space around portfolio page?
 
--go back in and adjust rem and em
+-go back in and adjust rem and em?
 
 -go back in and make semantic - will need to refactor later!!!!!!!!
 .container => main; row is section; column is article/aside
@@ -52,11 +52,7 @@ margin-top is for measuring the external distance to the element, in relation to
 Also, top behavior can differ depending on the type of position, absolute, relative or fixed.
 */
 
-<div className='wrapper'>
-  <a className="qanda" href="#questions">
-      <span> 
-      <img className='icon-qanda icon-bubble' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> 
-      Q&A
-      </span>
-  </a>
-</div>
+
+/*clearfix - just contains columns
+  It is one of those ugly things that we all just have to live with as it is really the only reasonable way of ensuring floated child elements don't overflow their parents. There are other layout schemes out there but floating is too commonplace in web design/development today to ignore the value of the clearfix hack. (what???? - Not 100% what this really means but have a feeling this is good to include for current/future styling)
+  */
