@@ -2,7 +2,7 @@ import React from 'react';
 
 import './bottom-nav.css';
 
-export default function Contact() {
+export default function BottomNav() {
     return (
       <nav className="bottom-nav">
         <div className="bottom-nav-container">

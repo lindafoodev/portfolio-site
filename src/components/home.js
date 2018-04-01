@@ -8,6 +8,7 @@ import QuestionAndAnswer from './question-and-answer';
 import Portfolio from './portfolio';
 import Resume from './resume';
 import Contact from './contact';
+import BottomNav from './bottom-nav';
 
 const containerHeight = '100px';
 
@@ -79,6 +80,7 @@ export default class Home extends React.Component {
                 <Portfolio />
                 <Resume />
                 <Contact />
+                <BottomNav />
             </div>  
         );
     }
