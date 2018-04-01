@@ -154,8 +154,8 @@ export default class Home extends React.Component {
                                 <div className="portfolio-title">
                                     Portfolio
                                 </div>
-                                <div className="project-container">
-                                    <div className="project-one-container">
+                                <div className="project-one-container">
+                                    <div className="project-one">
                                         <div className="project-title">Zhip</div>
                                             <div className="project-links">
                                                 <div className="project-linkBox">
@@ -174,7 +174,9 @@ export default class Home extends React.Component {
                                             <p className="project-paragraph">Javascript ES6, Nodejs, Express, React, Redux, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
                                         </div>
                                     </div>
-                                    <div className="project-two-container">
+                                </div>
+                                <div className="project-two-container">
+                                    <div className="project-two">
                                         <div className="project-title">Neighborly</div>
                                             <div className="project-links">
                                                 <div className="project-linkBox">

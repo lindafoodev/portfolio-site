@@ -164,7 +164,6 @@ li [class^="icon-"] {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  max-width:740px;
 }
 
 .questions-title{
@@ -193,7 +192,88 @@ li [class^="icon-"] {
 
 /*PORTFOLIO STYLING - START ---------------------------------------------------------------------*/
 
+#portfolio { 
+  text-align: left; /*centers avatar and text */
+  background-color: #AEC5CB;
+  font-family: "din-2014", helvetica, sans-serif;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.portfolio-title{
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  color: #565656;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.project-one-container, .project-two-container{
+  margin-bottom: 75px;
+}
+
+.project-one, .project-two{
+  width: 90%;
+  padding: 20px;
+  border-radius: 3px; /*slightly rounded border*/
+  background-color: #EDEDED;
+  border: 2px solid #565656;
+  margin: auto; /*center*/
+}
+
+.project-title, .project-subsection-title{
+  text-align: center;
+  line-height: 1.25em;
+  color: #AEC5CB; 
+  text-overflow: ellipsis; /*in case of overflow*/
+}
+
+.project-title{
+  padding-top: 20px;
+  font-size: 3em;
+}
+
+.project-subsection-title{
+  padding-top: 10px;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.project-links{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em; 
+  font-family: "din-2014", helvetica, sans-serif;
+}
+
+.project-linkBox{
+  padding: 5px;
+  border: 5px solid #AEC5CB;
+  background-color: #EDEDED;
+}
+
+.project-linkBox > a:hover, .project-linkBox > a:focus {
+  background-color: #AEC5CB;
+  color: #565656; 
+  text-decoration: none;
+}
+
+.space-container-link{
+  background: #EDEDED;
+  padding: 5px;
+}
+
+.project-paragraph{
+  font-size: 1.5em;
+  line-height: 1.58em;
+  color: #565656; 
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis; /*in case of overflow*/
+}
 
 /*PORTFOLIO STYLING - END ---------------------------------------------------------------------*/
 
