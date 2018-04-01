@@ -1,5 +1,3 @@
-//whole application page
-
 import React from 'react';
 
 import Scroll from './scroll';
