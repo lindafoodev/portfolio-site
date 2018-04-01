@@ -291,8 +291,9 @@ img.icon-bubble{
   text-align: center; /*centers avatar and text */
   font-size: 2.75em;
   background-color: #EDEDED;
-  width: 50%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   /*padding: 10px maybe utilize - looks kind of nice*/
 }
 
@@ -390,4 +391,9 @@ span > .icon-return{
   .column {
     float: left;
   }
+
+  .resume-file-container{ 
+    width: 50%;
+  }
+
 }
