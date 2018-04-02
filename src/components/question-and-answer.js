@@ -28,7 +28,7 @@ export default function QuestionAndAnswer() {
                         What are you passionate about?
                     </div>
                     <div className="questions-content">
-                        <p className="questions-paragraph">I am passionate about making a positive impact in my community and gcontainering through new experiences. I appreciate challenges and I continuously seek out opportunities for gcontainerth whether it’s surrounding myself with talented people or exposing myself to other cultures through travel. I strive to be a better version of myself and an active contributor to society.</p>
+                        <p className="questions-paragraph">I am passionate about making a positive impact in my community and growing through new experiences. I appreciate challenges and I continuously seek out opportunities for growth whether it’s surrounding myself with talented people or exposing myself to other cultures through travel. I strive to be a better version of myself and an active contributor to society.</p>
                     </div>
                 </div>
             </div>
