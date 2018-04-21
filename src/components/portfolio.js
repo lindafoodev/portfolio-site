@@ -54,7 +54,7 @@ export default function Portfolio() {
                     <div className="project-container">
                         <div className="project">
                             <div className="left-side">
-                                <img className='neighborly-image' src={require('./images/neighborly.png')} alt={"neighborly screenshot"}/>
+                                <img className='screenshot-image' src={require('./images/neighborly.png')} alt={"neighborly screenshot"}/>
                             </div>
                             <div className="right-side">
                                 <div className="project-title">Neighborly</div>
