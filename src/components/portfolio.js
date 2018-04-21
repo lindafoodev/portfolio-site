@@ -53,22 +53,27 @@ export default function Portfolio() {
                     </div>
                     <div className="project-container">
                         <div className="project">
-                            <div className="project-title">Neighborly</div>
-                                <div className="project-links">
-                                    <div className="project-linkBox">
-                                        <a href="https://sharingiscaring-app.herokuapp.com/" target="_blank">Demo</a>
-                                    </div>
-                                    <div className="space-container-link"></div>
-                                    <div className="project-linkBox">
-                                        <a href="https://github.com/lindafoodev/Neighborly" target="_blank">Code</a>
-                                    </div>
-                                </div>
-                            <div className="project-description">
-                                <p className="project-paragraph">Paired programmed and built an online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
+                            <div className="left-side">
+                                <img className='neighborly-image' src={require('./images/neighborly.png')} alt={"neighborly screenshot"}/>
                             </div>
-                            <div className="project-subsection-title"> Skills</div>
-                            <div className="project-skills">
-                                <p className="project-paragraph">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
+                            <div className="right-side">
+                                <div className="project-title">Neighborly</div>
+                                    <div className="project-links">
+                                        <div className="project-linkBox">
+                                            <a href="https://sharingiscaring-app.herokuapp.com/" target="_blank">Demo</a>
+                                        </div>
+                                        <div className="space-container-link"></div>
+                                        <div className="project-linkBox">
+                                            <a href="https://github.com/lindafoodev/Neighborly" target="_blank">Code</a>
+                                        </div>
+                                    </div>
+                                <div className="project-description">
+                                    <p className="project-paragraph">Paired programmed and built an online resource where members of a given community can loan, give away or sell their items all while encouraging interaction to get to know your neighbors.</p>
+                                </div>
+                                <div className="project-subsection-title"> Skills</div>
+                                <div className="project-skills">
+                                    <p className="project-paragraph">Javascript ES6, jQuery, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github, Mocha, Chai</p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -144,15 +144,6 @@ img.icon-bubble{
   height: 30px
 }
 
-.email:before{
-  background: url('./components/images/if_Streamline-58_185078.ico') no-repeat;
-  content: "";
-  display: block;
-  max-width: 20px;
-  max-height: 20px;
-  float: left
-}
-
 /*NAVBAR STYLING - END ---------------------------------------------------------------------*/
 
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
@@ -210,10 +201,17 @@ img.icon-bubble{
 .project-container{
   margin-bottom: 75px;
   text-align: left;
+  display: flex;
+  width: 100%;
+}
+
+.neighborly-image{
+  max-height: 100%;
+  max-width: 90%;
 }
 
 .project{
-  width: 90%;
+  width: 95%;
   padding: 20px;
   border-radius: 3px; /*slightly rounded border*/
   background-color: #EDEDED;
@@ -394,6 +392,21 @@ span > .icon-return{
 
   .resume-file-container{ 
     width: 50%;
+  }
+
+  .left-side{
+    width:50%;
+    float: left;
+  }
+  
+  .right-side{
+    width: 50%;
+    float: right
+  }
+  
+  .neighborly-image{
+    max-height: 100%;
+    max-width: 90%;
   }
 
 }
