@@ -219,8 +219,12 @@ img.icon-bubble{
   margin: auto; /*center*/
 }
 
-.project-title{
-  text-align: center
+.left-side{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .project-title, .project-subsection-title{
@@ -233,6 +237,8 @@ img.icon-bubble{
   padding-top: 5px;
   font-size: 3em;
   padding-bottom: 10px;
+  margin-top: 10px;
+  text-align: center
 }
 
 .project-subsection-title{
@@ -415,6 +421,10 @@ span > .icon-return{
     align-items: center;
     justify-content: center;
     display: flex;
+  }
+
+  .project-title{
+    margin-top: 0px;
   }
 
 }
