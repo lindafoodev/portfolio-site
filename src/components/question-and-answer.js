@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './question-and-answer.css';
-
 export default function QuestionAndAnswer() {
     return (
       <section id='questions'>        
@@ -21,7 +19,7 @@ export default function QuestionAndAnswer() {
                 </div>
             </div>
         </div>       
-        <div className='section'>
+        {/*<div className='section'>
             <div className='allocate-container'>
                 <div className="questions-container">
                     <div className="questions-question">
@@ -32,7 +30,7 @@ export default function QuestionAndAnswer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>*/}
         <div className='section'>
             <div className='allocate-container'>
                 <div className="questions-container">
@@ -47,7 +45,7 @@ export default function QuestionAndAnswer() {
                 </div>
             </div>
         </div>
-        <div className='section'>
+        {/*<div className='section'>
             <div className='allocate-container'>
                 <div className="questions-container">
                     <div className="questions-question">
@@ -67,6 +65,7 @@ export default function QuestionAndAnswer() {
                 </div>
             </div>
         </div>
+        */}
     </section>
     );
 }

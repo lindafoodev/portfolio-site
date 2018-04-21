@@ -67,7 +67,7 @@ div [class^="icon-"] {
 
 .top-container { 
   text-align: center; /*centers avatar and text */
-  background-color: #AEC5CB;
+  background-color: #EDEDED;
   height: 100vh;
 }
 
@@ -107,7 +107,7 @@ div [class^="icon-"] {
 .top-title {
   font-size: 2em;
   line-height: 1.25em;
-  color: #EDEDED;
+  color: #565656;
   margin: 8px 14px 0 14px; 
 }
 /*TOP STYLING - END ---------------------------------------------------------------------*/
@@ -144,6 +144,15 @@ img.icon-bubble{
   height: 30px
 }
 
+.email:before{
+  background: url('./components/images/if_Streamline-58_185078.ico') no-repeat;
+  content: "";
+  display: block;
+  max-width: 20px;
+  max-height: 20px;
+  float: left
+}
+
 /*NAVBAR STYLING - END ---------------------------------------------------------------------*/
 
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
@@ -164,14 +173,14 @@ img.icon-bubble{
 
 .questions-question{
   padding-top: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.25em;
-  color: #AEC5CB; 
+  color: #565656; 
   text-overflow: ellipsis; /*in case of overflow*/
 }
 
 .questions-paragraph{
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.58em;
   color: #565656; 
   text-overflow: ellipsis; /*in case of overflow*/
@@ -183,7 +192,7 @@ img.icon-bubble{
 
 #portfolio { 
   text-align: left; /*centers avatar and text */
-  background-color: #AEC5CB;
+  background-color: #EDEDED;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -198,12 +207,12 @@ img.icon-bubble{
   padding-top: 20px;
 }
 
-.project-one-container, .project-two-container{
+.project-container{
   margin-bottom: 75px;
-  text-align: center;
+  text-align: left;
 }
 
-.project-one, .project-two{
+.project{
   width: 90%;
   padding: 20px;
   border-radius: 3px; /*slightly rounded border*/
@@ -212,38 +221,41 @@ img.icon-bubble{
   margin: auto; /*center*/
 }
 
+.project-title{
+  text-align: center
+}
+
 .project-title, .project-subsection-title{
   line-height: 1.25em;
-  color: #AEC5CB; 
+  color: #565656; 
   text-overflow: ellipsis; /*in case of overflow*/
 }
 
 .project-title{
-  padding-top: 20px;
+  padding-top: 5px;
   font-size: 3em;
+  padding-bottom: 10px;
 }
 
 .project-subsection-title{
   padding-top: 10px;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 .project-links{
   display: flex;
   justify-content: center;
-  font-size: 1.5em; 
+  font-size: 1em; 
 }
 
 .project-linkBox{
   padding: 5px;
-  border: 5px solid #AEC5CB;
-  background-color: #EDEDED;
+  background-color: rgba(226, 221, 238, 0.867);
 }
 
 .project-linkBox > a:hover, .project-linkBox > a:focus {
-  background-color: #AEC5CB;
-  color: #565656; 
+  background-color:  rgba(217, 208, 238, 0.867);
   text-decoration: none;
 }
 
@@ -253,8 +265,8 @@ img.icon-bubble{
 }
 
 .project-paragraph{
-  font-size: 1.5em;
-  line-height: 1.58em;
+  font-size: 1em;
+  line-height: 1.25em;
   color: #565656; 
   overflow: hidden;
   text-overflow: ellipsis; /*in case of overflow*/
@@ -281,7 +293,7 @@ img.icon-bubble{
 
 .resume-file-container{ 
   text-align: center; /*centers avatar and text */
-  font-size: 2.75em;
+  font-size: 2em;
   background-color: #EDEDED;
   margin-left: auto;
   margin-right: auto;
@@ -295,11 +307,11 @@ img.icon-bubble{
 
 
 .icon-text{
-  color: #AEC5CB;
+  color: #565656;
 }
 
 img.icon-download{
-  max-width: 250px;
+  max-width: 200px;
 }
 
 /*RESUME STYLING - END ---------------------------------------------------------------------*/
@@ -307,12 +319,13 @@ img.icon-download{
 /*CONTACT STYLING - START ---------------------------------------------------------------------*/
 
 #contact {
-  background-color: #AEC5CB;
+  background-color: #EDEDED;
   padding-top: 125px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 100px;
   line-height: 1.5em;
+  height: 100vh;
 }
 
 .contact-title{
@@ -324,7 +337,7 @@ img.icon-download{
 }
 
 .contact-text, .contact-type{
-  color: #EDEDED; 
+  color: #565656; 
 }
 
 .contact-detail{ 
@@ -383,4 +396,22 @@ span > .icon-return{
     width: 50%;
   }
 
+}
+
+div [class^="link-"] {
+  display: inline-block; /*brings text below icons/icon above text*/
+}
+
+img.link-bubble{
+  width:30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+span.details{
+  padding-left: 10px;
+}
+
+.wrapper-contact{
+  margin-top: 24px;
 }

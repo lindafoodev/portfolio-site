@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './bottom-nav.css';
-
 export default function BottomNav() {
     return (
       <nav className="bottom-nav">
