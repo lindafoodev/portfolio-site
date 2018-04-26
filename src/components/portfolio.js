@@ -90,17 +90,17 @@ export default function Portfolio() {
                     <div className="project-container">
                         <div className="project">
                             <div className="left-side">
-                                <img className='screenshot-image' src={require('./images/neighborly.png')} alt={"neighborly screenshot"}/>
+                                <img className='screenshot-image' src={require('./images/commonly.png')} alt={"commonly screenshot"}/>
                             </div>
                             <div className="right-side">
-                                <div className="project-title">Neighborly</div>
+                                <div className="project-title">Commonly</div>
                                     <div className="project-links">
                                         <div className="project-linkBox">
                                             <a href="https://sharingiscaring-app.herokuapp.com/" target="_blank">Demo</a>
                                         </div>
                                         <div className="space-container-link"></div>
                                         <div className="project-linkBox">
-                                            <a href="https://github.com/lindafoodev/Neighborly" target="_blank">Code</a>
+                                            <a href="https://github.com/lindafoodev/commonly" target="_blank">Code</a>
                                         </div>
                                     </div>
                                 <div className="project-description">
