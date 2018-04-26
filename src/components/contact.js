@@ -10,8 +10,7 @@ export default function Contact() {
                         Contact
                     </div>
                     <div className="contact-detail">
-                        <p className='contact-text'>Let's Connect!</p>
-                        <div className='wrapper'>
+                        <div className='wrapper-contact'>
                             <a href="mailto:lindafoodev@gmail.com">
                                 <span> 
                                 <img className='link-bubble' src={require('./images/if_Streamline-58_185078.ico')} alt={"Email Icon"}/> 
@@ -35,6 +34,7 @@ export default function Contact() {
                                 </span>
                             </a>
                         </div>
+                        <p className='contact-text'>Let's Connect!</p>
                     </div>
                 </div>
             </div>

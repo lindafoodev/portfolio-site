@@ -31,22 +31,22 @@ export default class Home extends React.Component {
                         <div className='navOnTop' style={{...styles.container, ...(rect && rect.top <= 0 && styles.sticky)}}>
                             <nav className='topNav'>
                                 <ul className='topNav-list'>
-                                    <li className="qanda">
-                                        <div className='wrapper'>
-                                            <a className="qanda" href="#questions">
-                                                <span> 
-                                                <img className='icon-qanda icon-bubble' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> 
-                                                Q&A
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </li>
                                     <li className="portfolio">
                                         <div className='wrapper'>
                                             <a className="portfolio" href="#portfolio">
                                                 <span> 
                                                 <img className='icon-portfolio icon-bubble' src={require('./images/290140 - folder.ico')} alt={"Portfolio Icon"}/> 
                                                 PORTFOLIO
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li className="qanda">
+                                        <div className='wrapper'>
+                                            <a className="qanda" href="#questions">
+                                                <span> 
+                                                <img className='icon-qanda icon-bubble' src={require('./images/if_speech_bubble_172556.ico')} alt={"Q&A Icon"}/> 
+                                                Q&A
                                                 </span>
                                             </a>
                                         </div>
@@ -76,8 +76,8 @@ export default class Home extends React.Component {
                             </div>
                     }</BoundingRect>
                 }</Scroll> 
-                <QuestionAndAnswer />
                 <Portfolio />
+                <QuestionAndAnswer />
                 <Resume />
                 <Contact />
                 <BottomNav />

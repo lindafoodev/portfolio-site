@@ -30,7 +30,7 @@ export default function Portfolio() {
                             </div>
                             <div className="project-subsection-title"> Skills</div>
                             <div className="project-skills">
-                                <p className="project-paragraph">Javascript ES6, Nodejs, Express, React/Redux, Mongodb, Mongoose, Heroku, mLab, Travis CI, Github</p>
+                                <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify, Github, Mocha, Chai</p>
                             </div>
                         </div>
                         </div>
@@ -82,7 +82,7 @@ export default function Portfolio() {
                                 </div>
                                 <div className="project-subsection-title"> Skills</div>
                                 <div className="project-skills">
-                                    <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Netlify, Github</p>
+                                    <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify, Github, Mocha, Chai</p>
                                 </div>
                             </div>
                         </div>

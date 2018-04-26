@@ -15,7 +15,7 @@ export default function Top() {
                             <div className="top-name">
                                 Linda Foo
                             </div>
-                            <div className="top-title">Developer</div>
+                            <div className="top-title">Full Stack<br/>Developer</div>
                         </div>
                     </div>
                 </div>

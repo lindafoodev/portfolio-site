@@ -61,7 +61,7 @@ div [class^="icon-"] {
 
 /*TOP STYLING - START ---------------------------------------------------------------------*/
 #top {
-  height: 100vh;
+  min-height: 100vh;
   margin-bottom: -100px; /*needed to incorporate nav bar at bottom of top page NOTE: Need to match navBar "containerHeight"*/
 }
 
@@ -285,7 +285,7 @@ img.icon-bubble{
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .resume-title{
@@ -329,7 +329,7 @@ img.icon-download{
   padding-right: 20px;
   padding-bottom: 100px;
   line-height: 1.5em;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .contact-title{
@@ -344,11 +344,22 @@ img.icon-download{
   color: #565656; 
 }
 
+.contact-text{
+  text-align: center;
+  margin-top: 45px;
+  font-weight: 700;
+}
+
 .contact-detail{ 
-  text-align: center; 
+  margin-top: 32px;
+  text-align: left; 
   font-size: 1.5em;
   color: #565656;
   word-wrap: break-word;
+}
+
+.wrapper-contact{
+  margin-bottom: 42px;
 }
 
 /*CONTACT STYLING - END ---------------------------------------------------------------------*/
