@@ -64,6 +64,32 @@ export default function Portfolio() {
                     <div className="project-container">
                         <div className="project">
                             <div className="left-side">
+                                <img className='screenshot-image' src={require('./images/tick-and-tie.png')} alt={"centsible screenshot"}/>
+                            </div>
+                            <div className="right-side">
+                                <div className="project-title">Tick-and-Tie</div>
+                                    <div className="project-links">
+                                        <div className="project-linkBox">
+                                            <a href="https://tnt.netlify.com/" target="_blank">Demo</a>
+                                        </div>
+                                        <div className="space-container-link"></div>
+                                        <div className="project-linkBox">
+                                            <a href="https://github.com/lindafoodev/tick-and-tie-client" target="_blank">Code</a>
+                                        </div>
+                                    </div>
+                                <div className="project-description">
+                                    <p className="project-paragraph">Developed a learning app that leverages a simplified Spaced Repetition System (SRS) to efficiently educate users on blockchain concepts, executed through use of a linked list data structure.</p>
+                                </div>
+                                <div className="project-subsection-title"> Skills</div>
+                                <div className="project-skills">
+                                    <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Netlify, Github</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project-container">
+                        <div className="project">
+                            <div className="left-side">
                                 <img className='screenshot-image' src={require('./images/neighborly.png')} alt={"neighborly screenshot"}/>
                             </div>
                             <div className="right-side">

@@ -58,4 +58,4 @@ Also, top behavior can differ depending on the type of position, absolute, relat
   */
 
 
-//npm run build, drag files -> deploy through cyberduck
+//npm run build, drag files -> deploy through cyberduck,
