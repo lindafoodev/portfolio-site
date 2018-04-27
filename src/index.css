@@ -71,16 +71,17 @@ div [class^="icon-"] {
   height: 100vh;
 }
 
-.cardheader-image {
+/* .cardheader-image {
   background: url('./components/images/linh-nguyen-145766-unsplash.jpg');
   background-size:cover;
-  background-position:top; /*ADJUST BASED ON SCREEN SIZE - center (mobile?), bottom, top (default) https://www.w3schools.com/cssref/pr_background-position.asp*/
+  background-position:top; /*ADJUST BASED ON SCREEN SIZE - center (mobile?), bottom, top (default) https://www.w3schools.com/cssref/pr_background-position.asp
   height: 45%;
-}
+} */
 
 .avatar {
   position: relative; /*relative - position relative to another element; in this case the cardheader-image - will sit flush below if margin is not adjusted */
-  margin: -60px 0px 15px 0px; /*adjust top margin to shift avatar relative to cardheader image; adjust bottom margin to shift top info down relative to avatar; top margin; right margin; bottom margin; left margin*/
+  margin: /*-60px*/ 0px 15px 0px; /*adjust top margin to shift avatar relative to cardheader image; adjust bottom margin to shift top info down relative to avatar; top margin; right margin; bottom margin; left margin*/
+  padding-top: 80px;
 }
 
 .avatar img {
