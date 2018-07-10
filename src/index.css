@@ -295,12 +295,26 @@ img.icon-bubble{
   list-style-type: circle;
 }
 
-.italic-text{
-  font-size: .90em;
-  padding-left: 10px;
+table {
+  margin-top: 8px;
+  color: #565656
+}
+
+.table-cell {
+  padding-top: 8px;
+}
+
+.table-paragraph {
+  padding-left: 24px;
+}
+
+.italic-text {
   font-style: italic;
 }
 
+.bold-text {
+  font-weight: bold;
+}
 
 
 /*RESUME STYLING - END ---------------------------------------------------------------------*/
