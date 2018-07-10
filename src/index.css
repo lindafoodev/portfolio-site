@@ -149,7 +149,7 @@ img.icon-bubble{
 
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
 #questions { 
-  text-align: left; /*centers avatar and text */
+  text-align: left; 
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -182,13 +182,14 @@ img.icon-bubble{
 /*PORTFOLIO STYLING - START ---------------------------------------------------------------------*/
 
 #portfolio { 
-  text-align: left; /*centers avatar and text */
+  text-align: center;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .portfolio-title{
+  text-align: left;
   font-size: 2em;
   font-weight: bold;
   line-height: 1em;
@@ -196,31 +197,32 @@ img.icon-bubble{
   padding-bottom: 20px;
 }
 
-.project-container{
+/* .project-container{
   text-align: left;
   display: flex;
   width: 100%;
-}
+} */
 
 .screenshot-image{
   max-height: 100%;
-  max-width: 90%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .project{
-  width: 95%;
-  padding: 20px;
-  border-radius: 3px; /*slightly rounded border*/
+  width: 100%;
+  padding-bottom: 20px;
   margin: auto; /*center*/
 }
 
-.left-side{
+/* .left-side{
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center
-}
+} */
 
 .project-title, .project-subsection-title{
   line-height: 1.25em;
@@ -253,6 +255,7 @@ img.icon-bubble{
 }
 
 .project-paragraph{
+  text-align: left;
   font-size: 1em;
   line-height: 1.25em;
   color: #565656; 
@@ -264,7 +267,7 @@ img.icon-bubble{
 
 /*RESUME STYLING - START ---------------------------------------------------------------------*/
 #resume {
-  text-align: left; /*centers avatar and text */
+  text-align: left; 
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -278,26 +281,27 @@ img.icon-bubble{
   color: #565656;
 }
 
-.resume-file-container{ 
-  text-align: center; /*centers avatar and text */
-  font-size: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
+.resume-container{ 
+  text-align: left; 
+  font-size: 1em;
 }
 
-.resume-download-list {
-  list-style-type: none;
-  margin-left: -40px; /*override ul padding default 40px*/
+.resume-section {
+  margin-top: 32px;
+  text-decoration: underline;
+}
+
+.resume-list {
+  list-style-type: circle;
+}
+
+.italic-text{
+  font-size: .90em;
+  padding-left: 10px;
+  font-style: italic;
 }
 
 
-.icon-text{
-  color: #565656;
-}
-
-img.icon-download{
-  max-width: 200px;
-}
 
 /*RESUME STYLING - END ---------------------------------------------------------------------*/
 
@@ -343,7 +347,7 @@ img.icon-download{
 /*BOTTOM NAV STYLING - START ---------------------------------------------------------------------*/
 .bottom-nav-container{ 
   margin-top: -125px;
-  text-align: center; /*centers avatar and text */
+  text-align: center; 
 }
 
 .bottom-nav-list {
@@ -358,7 +362,7 @@ span > .icon-return{
 
 .return-wrapper{
   width: 30%;
-  text-align: center; /*centers avatar and text */
+  text-align: center;
   margin: auto;
 }
 
@@ -383,10 +387,7 @@ span > .icon-return{
     float: left;
   }
 
-  .resume-file-container{ 
-    width: 50%;
-  }
-
+/* 
   .left-side{
     width:50%;
     display: inline-block;
@@ -397,18 +398,18 @@ span > .icon-return{
   .right-side{
     width: 50%;
     float: right
-  }
+  } */
   
   .screenshot-image{
     max-height: 100%;
     max-width: 90%;
   }
-
+/* 
   .project{
     align-items: center;
     justify-content: center;
     display: flex;
-  }
+  } */
 
   .project-title{
     margin-top: 0px;
@@ -430,7 +431,7 @@ span.details{
   padding-left: 10px;
 }
 
-.wrapper-contact{
+.wrapper-contact, .wrapper-resume{
   margin-top: 24px;
 }
 
@@ -444,3 +445,4 @@ span.details{
     padding-bottom: 10px;
   }
 }
+
