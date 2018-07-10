@@ -13,7 +13,7 @@ export default function QuestionAndAnswer() {
                         Can you tell me about yourself?
                     </div>
                     <div className="questions-content">
-                        <p className="questions-paragraph">I am an accountant turned developer who is known for my ability to effectively decipher information and efficiently utilize resources available to me to drive performance. I have a proven track record of continuously taking on challenges to further my personal and professional development.</p>
+                        <p className="questions-paragraph">I am a developer with domain knowledge in business. I am known for my ability to effectively decipher information and efficiently utilize resources available to me to perform. I have a proven track record of continuously taking on challenges to further my personal and professional development.</p>
                         <p className="questions-paragraph">I graduated from The University of Texas at Austin with a Bachelor of Business Administration and a Master in Professional Accounting. I am a licensed CPA. My professional experiences include managing operational reviews for JPMorgan Chase & Co. and external financial audits for PricewaterhouseCoopers LLP (PwC) and Grant Thornton LLP. I have worked on a variety of projects in various industries including Financial Services, Manufacturing, Aerospace, Restaurant, and Oil & Gas.</p>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ export default function QuestionAndAnswer() {
                         Why programming?
                     </div>
                     <div className="questions-content">
-                        <p className="questions-paragraph">In 2017, I was selected as a Lesbians Who Tech Edie Windsor Coding Scholar, which kick-started my journey as a developer.</p>
+                        <p className="questions-paragraph">In 2017, I was selected as an Edie Windsor Coding Scholar, which kick-started my journey as a developer.</p>
                         <p className="questions-paragraph">Being a developer has provided me with the ability to leverage my previous professional experiences and business acumen to build real-life solutions for everyday problems to improve people’s quality of life.</p>
-                        <p className="questions-paragraph">Programming is fun to me because I enjoy the process of problem solving and I love creating through logic and structure. I appreciate the ability to work independently while also being a part of a community full of encouraging and knowledgeable people willing to collaborate and share their experiences. </p>
+                        <p className="questions-paragraph">Programming is fun to me because I enjoy the process of problem solving and I love creating through logic and structure. I appreciate the ability to work independently while also being a part of a community full of encouraging and knowledgeable people willing to collaborate and share their experiences.</p>
                     </div>
                 </div>
             </div>

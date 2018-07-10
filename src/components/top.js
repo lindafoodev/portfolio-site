@@ -9,7 +9,7 @@ export default function Top() {
                         <div className="cardheader-image">
                         </div>
                         <div className="avatar">
-                            <img src={require('./images/avatar-linda.jpg')} alt={"linda foo profile"}/>
+                            <img src={require('./images/linda-headshot.jpg')} alt={"linda foo profile"}/>
                         </div>
                         <div className="top-info">
                             <div className="top-name">

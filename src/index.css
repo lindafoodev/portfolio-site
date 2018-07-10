@@ -10,6 +10,7 @@ NOTE: KEEPING ALL STYLING IN INDEX FOR EASIER REVIEW/FUTURE CHANGES - WILL BREAK
 
  html {
   box-sizing: border-box;
+  scroll-behavior: smooth; /*smooth scroll*/
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -49,9 +50,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden; /*does not show overflow - no horizontal scrollbar*/
-  background-color: white;
   max-width: 740px;
-  font-family: "din-2014", helvetica, sans-serif;
+  font-family: Georgia, serif; /*"din-2014", helvetica, sans-serif;*/
 }
 
 div [class^="icon-"] {
@@ -67,7 +67,6 @@ div [class^="icon-"] {
 
 .top-container { 
   text-align: center; /*centers avatar and text */
-  background-color: #EDEDED;
   height: 100vh;
 }
 
@@ -138,6 +137,7 @@ a, a:visited {
 
 a:hover, a:focus { /*hover - mouse hover; focus - keyboard */
   text-decoration: underline;
+  font-weight: bold;
 }
 
 img.icon-bubble{
@@ -150,14 +150,13 @@ img.icon-bubble{
 /*QUESTIONS STYLING - START ---------------------------------------------------------------------*/
 #questions { 
   text-align: left; /*centers avatar and text */
-  background-color: #EDEDED;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .questions-title{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   line-height: 1em;
   color: #565656;
@@ -184,23 +183,20 @@ img.icon-bubble{
 
 #portfolio { 
   text-align: left; /*centers avatar and text */
-  background-color: #EDEDED;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .portfolio-title{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   line-height: 1em;
   color: #565656;
   padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 .project-container{
-  margin-bottom: 75px;
   text-align: left;
   display: flex;
   width: 100%;
@@ -215,8 +211,6 @@ img.icon-bubble{
   width: 95%;
   padding: 20px;
   border-radius: 3px; /*slightly rounded border*/
-  background-color: #EDEDED;
-  border: 2px solid #565656;
   margin: auto; /*center*/
 }
 
@@ -236,16 +230,16 @@ img.icon-bubble{
 
 .project-title{
   padding-top: 5px;
-  font-size: 3em;
+  font-size: 2em;
   padding-bottom: 10px;
   margin-top: 10px;
-  text-align: center
+  text-align: center;
+  font-weight: bold;
 }
 
 .project-subsection-title{
   padding-top: 10px;
   font-size: 1.5em;
-  font-weight: bold;
 }
 
 .project-links{
@@ -255,17 +249,6 @@ img.icon-bubble{
 }
 
 .project-linkBox{
-  padding: 5px;
-  background-color: rgba(226, 221, 238, 0.867);
-}
-
-.project-linkBox > a:hover, .project-linkBox > a:focus {
-  background-color:  rgba(217, 208, 238, 0.867);
-  text-decoration: none;
-}
-
-.space-container-link{
-  background: #EDEDED;
   padding: 5px;
 }
 
@@ -282,7 +265,6 @@ img.icon-bubble{
 /*RESUME STYLING - START ---------------------------------------------------------------------*/
 #resume {
   text-align: left; /*centers avatar and text */
-  background-color: #EDEDED;
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -290,7 +272,7 @@ img.icon-bubble{
 }
 
 .resume-title{
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   line-height: 1em;
   color: #565656;
@@ -298,11 +280,9 @@ img.icon-bubble{
 
 .resume-file-container{ 
   text-align: center; /*centers avatar and text */
-  font-size: 2em;
-  background-color: #EDEDED;
+  font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 }
 
 .resume-download-list {
@@ -324,25 +304,25 @@ img.icon-download{
 /*CONTACT STYLING - START ---------------------------------------------------------------------*/
 
 #contact {
-  background-color: #EDEDED;
-  padding-top: 125px;
+  text-align: left;
+  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 100px;
-  line-height: 1.5em;
   min-height: 100vh;
 }
 
 .contact-title{
-  padding-bottom: 25px;
-  text-align: left;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
+  line-height: 1em;
   color: #565656;
 }
 
 .contact-text, .contact-type{
   color: #565656; 
+  padding-top: 20px;
+  line-height: 1em;
 }
 
 .contact-text{
@@ -352,15 +332,10 @@ img.icon-download{
 }
 
 .contact-detail{ 
-  margin-top: 32px;
   text-align: left; 
-  font-size: 1.5em;
+  font-size: 1em;
   color: #565656;
   word-wrap: break-word;
-}
-
-.wrapper-contact{
-  margin-bottom: 42px;
 }
 
 /*CONTACT STYLING - END ---------------------------------------------------------------------*/
@@ -457,4 +432,15 @@ span.details{
 
 .wrapper-contact{
   margin-top: 24px;
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  /* css rules */
+  .avatar{
+    padding-top: 30px;
+  }
+
+  .topNav-list{
+    padding-bottom: 10px;
+  }
 }
