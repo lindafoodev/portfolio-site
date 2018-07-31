@@ -47,7 +47,7 @@ export default function Resume() {
                                 <td className='table-cell table-paragraph'><span className='italic-text'>Assurance Senior Associate - </span><span>Supervised 9 staff and interns on financial audits. Leveraged interpersonal skills to build strong professional relationships with client management and staff. Received two recognition awards for outstanding performance.</span></td>
                             </tr>
                             <tr className='table-row'>
-                                <td className='table-cell table-paragraph'><span className='bold-text'>Grant Thornton LLP (PwC)</span></td>
+                                <td className='table-cell table-paragraph'><span className='bold-text'>Grant Thornton LLP</span></td>
                             </tr>
                             <tr className='table-row'>
                                 <td className='table-cell table-paragraph'><span className='italic-text'>Senior Audit Associate - </span><span>Executed financial statement reviews for public and private companies with revenues from $5 million to $2 billion in various industries, including Financial Services, Manufacturing, Aerospace Restaurant, and Oil & Gas, touching all aspects of business, such as Revenue and Expenses, Cash, Intangibles, Inventory, Fixed Assets, Debt, and Equity.</span></td>
