@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">I am a former accountant turned full-stack developer.</h4>
+<h4 align="center">I am a full-stack developer with domain knowledge in finance (CPA).</h4>
 <h4 align="center">lindafoo.com</h4>
 
 <p align="center">
