@@ -13,8 +13,8 @@ export default function QuestionAndAnswer() {
                         Can you tell me about yourself?
                     </div>
                     <div className="questions-content">
-                        <p className="questions-paragraph">I am a developer with domain knowledge in finance (CPA). I am known for my ability to effectively decipher information and efficiently utilize resources available to me to perform. I have a proven track record of continuously taking on challenges to further my personal and professional development.</p>
-                        <p className="questions-paragraph">I graduated from The University of Texas at Austin with a Bachelor of Business Administration and a Master in Professional Accounting. I am a licensed CPA. My professional experiences include managing operational reviews for JPMorgan Chase & Co. and external financial audits for PricewaterhouseCoopers LLP (PwC) and Grant Thornton LLP. I have worked on a variety of projects in various industries including Financial Services, Manufacturing, Aerospace, Restaurant, and Oil & Gas.</p>
+                        <p className="questions-paragraph">I am a developer with finance industry expertise. I am known for my ability to effectively decipher information and efficiently utilize resources available to me to perform. I have a proven track record of continuously taking on challenges to further my personal and professional development.</p>
+                        <p className="questions-paragraph">I graduated from The University of Texas at Austin with a BBA and a Masters in Accounting. I am a licensed CPA. My professional experiences include managing operational reviews for JPMorgan Chase and external financial reviews for PricewaterhouseCoopers (PwC). I have worked on a variety of projects in various industries including Financial Services, Manufacturing, Aerospace, Restaurant, and Oil & Gas.</p>
                     </div>
                 </div>
             </div>
