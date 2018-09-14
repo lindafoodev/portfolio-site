@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">I am a full-stack developer with domain knowledge in finance (CPA).</h4>
+<h4 align="center">I am a Full Stack Web Developer with finance industry expertise.</h4>
 <h4 align="center">lindafoo.com</h4>
 
 <p align="center">
@@ -41,6 +41,6 @@ This software uses code from several open source packages.
 
 Front-end technologies
 + ES6 JavaScript
-+ React/Redux
++ React
 + CSS media queries
 ---
