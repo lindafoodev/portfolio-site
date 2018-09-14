@@ -23,13 +23,36 @@ export default function Portfolio() {
                                         </div>
                                     </div>
                                 <div className="project-description">
-                                <p className="project-paragraph">Independently developed within a week, a full-stack MERN utility web application to send and receive IOUs between individuals reliably and securely using a generated URL link.</p>
-                            </div>
-                            <div className="project-subsection-title"> Skills</div>
-                            <div className="project-skills">
-                                <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify</p>
+                                    <p className="project-paragraph">Independently developed within a week, a full-stack MERN utility web application to send and receive IOUs between individuals reliably and securely using a generated URL link.</p>
+                                </div>
+                                <div className="project-subsection-title"> Skills</div>
+                                <div className="project-skills">
+                                    <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify</p>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="project-container">
+                        <div className="project">
+                            <div className="left-side">
+                                <img className='screenshot-image' src={require('./images/highlight-desktop.png')} alt={"highlight screenshot"}/>
+                            </div>
+                            <div className="right-side">
+                                <div className="project-title">Highlight</div>
+                                    <div className="project-links">
+                                        <div className="project-linkBox">
+                                            <a href="https://highlight-event.netlify.com/" target="_blank">Live Demo</a><span> | </span>
+                                            <a href="https://github.com/lindafoodev/highlight" target="_blank">GitHub</a>
+                                        </div>
+                                    </div>
+                                <div className="project-description">
+                                    <p className="project-paragraph">Independently developed a front end, serverless single page landing site for a social event. Custom designed features include: countdown, event details, registry, photo carousel, and RSVP form (synced with Google Sheets API and email).</p>
+                                </div>
+                                <div className="project-subsection-title"> Skills</div>
+                                <div className="project-skills">
+                                    <p className="project-paragraph">Javascript ES6, HTML/CSS, React, Google Sheets API, Netlify</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="project-container">
@@ -55,29 +78,29 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="project-container">
-                        <div className="project">
-                            <div className="left-side">
-                                <img className='screenshot-image' src={require('./images/tnt-desktop.png')} alt={"centsible screenshot"}/>
-                            </div>
-                            <div className="right-side">
-                                <div className="project-title">Tick-and-Tie</div>
-                                    <div className="project-links">
-                                        <div className="project-linkBox">
-                                            <a href="https://tnt.netlify.com/" target="_blank">Live Demo</a><span> | </span>
-                                            <a href="https://github.com/lindafoodev/tick-and-tie-client" target="_blank">GitHub</a>
+                    {/* <div className="project-container">
+                            <div className="project">
+                                <div className="left-side">
+                                    <img className='screenshot-image' src={require('./images/tnt-desktop.png')} alt={"centsible screenshot"}/>
+                                </div>
+                                <div className="right-side">
+                                    <div className="project-title">Tick-and-Tie</div>
+                                        <div className="project-links">
+                                            <div className="project-linkBox">
+                                                <a href="https://tnt.netlify.com/" target="_blank">Live Demo</a><span> | </span>
+                                                <a href="https://github.com/lindafoodev/tick-and-tie-client" target="_blank">GitHub</a>
+                                            </div>
                                         </div>
+                                    <div className="project-description">
+                                        <p className="project-paragraph">Developed a learning app that leverages a simplified Spaced Repetition System (SRS) to efficiently educate users on blockchain concepts.</p>
                                     </div>
-                                <div className="project-description">
-                                    <p className="project-paragraph">Developed a learning app that leverages a simplified Spaced Repetition System (SRS) to efficiently educate users on blockchain concepts.</p>
-                                </div>
-                                <div className="project-subsection-title"> Skills</div>
-                                <div className="project-skills">
-                                    <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify</p>
+                                    <div className="project-subsection-title"> Skills</div>
+                                    <div className="project-skills">
+                                        <p className="project-paragraph">Javascript ES6, React/Redux, Nodejs, Express, Bcryptjs, jsonwebtoken, Passport, Mongodb, Mongoose, Heroku, mLab, Travis CI, Netlify</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> */}
                     <div className="project-container">
                         <div className="project">
                             <div className="left-side">
