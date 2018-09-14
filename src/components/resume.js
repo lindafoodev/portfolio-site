@@ -10,7 +10,7 @@ export default function Resume() {
                 </div>
                 <div className="resume-container">
                     <div className='wrapper-resume'>
-                        <a href='./assets/Foo_Linda_Resume_2018_pub.pdf' alt="Download Resume" target="_blank">
+                        <a href='./assets/Foo_Linda_Resume_pub.pdf' alt="Download Resume" target="_blank">
                         <span>
                             <img className='link-bubble' src={require('./images/if_icon-70-document-file-pdf_315672.ico')} alt={"Download PDF Icon"}/>
                             <span className='details'>Download</span>
