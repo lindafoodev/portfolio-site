@@ -4,8 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">I am a Full Stack Web Developer with finance industry expertise.</h4>
-<h4 align="center">lindafoo.com</h4>
+<h4 align="center">I am a Front End Web Developer with finance industry experience.</h4>
 
 <p align="center">
     <a href="#documentation">Documentation</a> •
